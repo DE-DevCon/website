@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "b343cf305afa76291a28cd9353d36bde",
+    "hash": "2cc0c4674c50b0da45d0c9dda6db3c3b",
     "packages": [
         {
             "name": "slim/slim",
@@ -15,7 +15,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeguy/Slim/zipball/2952d3810a3f99256ea23142258f05f0c55e7a9e",
+                "url": "https://api.github.com/repos/codeguy/Slim/zipball/2952d3810a3f99256ea23142258f05f0c55e7a9f",
                 "reference": "2952d3810a3f99256ea23142258f05f0c55e7a9e",
                 "shasum": ""
             },
@@ -160,8 +160,7 @@
 
     ],
     "platform": {
-        "php": "~5.4",
-        "ext-mcrypt": "*"
+        "php": "~5.4"
     },
     "platform-dev": [
 
