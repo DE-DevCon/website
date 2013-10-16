@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0" />
+    <title>{% block title %}{% endblock %} - 12BCon</title>
+    <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-default" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <li {% if page == "home" %} class="active" {% endif %}><a href="/">Home</a></li>
+        <li {% if page == "cfp" %} class="active" {% endif %}><a href="cfp">Call for Papers</a></li>
+      </ul>
+    </nav>
+    {% if flash.error %}
+      <div class="alert alert-error">{{ flash.error }}</div>
+    {% endif %}
+    <div class="container">
+      {% block content %}{% endblock %}
+    </div>
+  </body>
+</html>
