@@ -1,9 +1,50 @@
 {% extends "base.html" %}
 {% block title %}Call For Papers{% endblock %}
 {% block content %}
+<div class="jumbotron jumbotron-home text-left">
 <h2>Get your proposals in by November 15th!</h2>
-<p>We want a variety of talks on work-related subjects.  Talks should be 50 minutes in length.</p>
+<p>We looking for a variety of talks on work-related subjects. Talks should be 50 minutes in length. You don't need to submit your full presentation.  Just a brief overview of what materials will be covered is needed.</p>
+<hr>
+<h2>Fill out this form to share at 12Bcon.</h2>
+<p></p>
 
-<h2>What to Submit</h2>
-<p>You don't need to submit your full presentation.  Just a brief overview of what materials will be covered is needed.</p>
+
+
+              <form class="bs-example form-horizontal">
+                <fieldset>
+                  <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputName">Name</label>
+                    <div class="col-lg-10">
+                      <input type="text" placeholder="Name" id="inputName" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                    <div class="col-lg-10">
+                      <input type="text" placeholder="Email" id="inputEmail" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-lg-2 control-label" for="inputBgroup">Business Group</label>
+                    <div class="col-lg-10">
+                      <input type="text" placeholder="Cycletrader.com, HR, ForRent.com, Homes.com, etc." id="inputBgroup" class="form-control">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="col-lg-2 control-label" for="textArea">Paper Summary</label>
+                    <div class="col-lg-10">
+                      <textarea id="textArea" rows="3" class="form-control" placeholder="You don't need to submit your full presentation. Just a brief overview of what materials will be covered is needed."></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-lg-10 col-lg-offset-2">
+                      <button class="btn btn-default">Cancel</button> 
+                      <button class="btn btn-primary" type="submit">Submit</button> 
+                    </div>
+                  </div>
+                </fieldset>
+              </form>
+              
+</div>
+
 {% endblock %}
