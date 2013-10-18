@@ -1,0 +1,32 @@
+/*12Bcon stylesheets extending netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css */
+
+.logo{
+    margin:20px auto;
+    display:block;
+    text-align:center;
+    width:350px;
+}
+.jumbotron-home{
+    padding-top:147px;
+    margin-top:-147px;
+}
+.jumbotron p{
+    margin:30px;
+}
+.jumbotron h1, .jumbotron h2, .jumbotron h3{
+    text-transform:uppercase;
+}
+.btn:hover{
+    -webkit-box-shadow: inset 0px 0px 66px 0px rgba(255, 255, 255, .3);
+    box-shadow: inset 0px 0px 66px 0px rgba(255, 255, 255, .3); 
+}
+.btn-huge{
+    font-size: 140%;
+    padding: 10px 50px;
+}
+.navbar{
+    
+}
+.form-horizontal .control-label{
+    padding:0px;
+}
