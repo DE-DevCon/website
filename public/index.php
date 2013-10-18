@@ -2,6 +2,8 @@
 $appDir = dirname(__DIR__);
 require_once "{$appDir}/vendor/autoload.php";
 
+$mailgunApiKey = getenv('MAILGUN_API_KEY') ?: die('Missing MAILGUN_API_KEY environment variable');
+
 $twigView = new \Slim\Views\Twig();
 $twigView->parserOptions = ['autoescape' => false];
 
