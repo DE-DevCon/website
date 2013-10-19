@@ -21,9 +21,9 @@ return function(\Slim\Slim $app) {
                 ]
             );
 
-            $app->flash('success', 'Your proposal has been received.  Thanks for submitting!');
+            $app->flashNow('success', 'Your proposal has been received.  Thanks for submitting!');
         } catch (\Exception $e) {
-            $app->flash('error', 'There was an error saving your proposal.  Please verify your information and try again.');
+            $app->flashNow('error', 'There was an error saving your proposal.  Please verify your information and try again.');
         }
 
         $app->render('cfp.html', ['page' => 'cfp']);
