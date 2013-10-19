@@ -15,6 +15,19 @@ $app = new \Slim\Slim([
 ]);
 $app->add(new \Slim\Middleware\SessionCookie(['secret' => $cookieSecretKey, 'name' => 'session']));
 
+$app->container->singleton('mailgunDomain', function() {
+   return getenv('MAILGUN_DOMAIN') ?: die('Missing MAILGUN_DOMAIN environment variable');
+});
+
+$app->container->singleton('mailgun', function() {
+    $mailgunApiKey = getenv('MAILGUN_API_KEY') ?: die('Missing MAILGUN_API_KEY environment variable');
+    return new \Mailgun\Mailgun($mailgunApiKey);
+});
+
+$app->container->singleton('cfpEmail', function() {
+   return getenv('CFP_EMAIL') ?: die('Missing CFP_EMAIL environment variable');
+});
+
 $view = $app->view();
 $view->parserExtensions = [new \Slim\Views\TwigExtension()];
 
