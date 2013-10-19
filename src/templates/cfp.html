@@ -7,24 +7,24 @@
   <p>You don't need to submit your full presentation: just a brief overview of what materials will be covered is needed.</p>
   <hr>
   <h2>Fill out this form to share at 12Bcon.</h2>
-  <form class="bs-example form-horizontal">
+  <form class="bs-example form-horizontal" method="post">
     <fieldset>
       <div class="form-group">
-        <label class="col-lg-2 control-label" for="inputName">Name</label>
+        <label class="col-lg-2 control-label" for="cfpName">Name</label>
         <div class="col-lg-10">
-          <input type="text" placeholder="Name" id="inputName" class="form-control">
+          <input type="text" placeholder="Name" id="cfpName" name="name" class="form-control">
         </div>
       </div>
       <div class="form-group">
-        <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+        <label class="col-lg-2 control-label" for="cfpEmail">Email</label>
         <div class="col-lg-10">
-          <input type="text" placeholder="Email" id="inputEmail" class="form-control">
+          <input type="text" placeholder="Email" id="cfpEmail" name="email" class="form-control">
         </div>
       </div>
       <div class="form-group">
-        <label class="col-lg-2 control-label" for="textArea">Paper Summary</label>
+        <label class="col-lg-2 control-label" for="cfpSummary">Paper Summary</label>
         <div class="col-lg-10">
-          <textarea id="textArea" rows="3" class="form-control" placeholder="You don't need to submit your full presentation. Just a brief overview of what materials will be covered is needed."></textarea>
+          <textarea id="cfpSummary" rows="3" class="form-control" placeholder="You don't need to submit your full presentation. Just a brief overview of what materials will be covered is needed." name="summary"></textarea>
         </div>
       </div>
       <div class="form-group">
