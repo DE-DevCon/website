@@ -22,7 +22,10 @@
     },
     "extra": {
         "heroku": {
-            "document-root": "public"
+            "document-root": "public",
+            "php-config": [
+                "date.timezone = America/New_York"
+            ]
         }
     }
 }
