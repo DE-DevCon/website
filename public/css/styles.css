@@ -6,6 +6,9 @@
     text-align:center;
     width:350px;
 }
+.logo img{
+    width:330px;
+}
 .jumbotron-home{
     padding-top:147px;
     margin-top:-147px;
@@ -29,4 +32,176 @@
 }
 .form-horizontal .control-label{
     padding:0px;
+}
+
+
+/*****water and narwhal animations ******/
+.narwhal{
+    position:fixed;
+    bottom:-110px;
+    left:-500px;
+    transform:scale(0.5,0.5);
+    -webkit-transform:scale(0.5,0.5);
+}
+.fluke{
+    left: 15px;
+    position: relative;
+    top: 185px;
+    animation:fluke 2s ease-in-out 0s infinite;
+    -webkit-animation:fluke 2s ease-in-out 0s infinite;
+}
+@keyframes fluke
+{
+0% {transform:scaleX(1.2);transform-origin:100% 0%;}
+60% {transform:scaleX(0.9);transform-origin:100% 0%;}
+100%   {transform:scaleX(1.2);transform-origin:100% 0%;}
+}
+@-webkit-keyframes fluke
+{
+0% {-webkit-transform:scaleX(1.2);-webkit-transform-origin:100% 0%;}
+60% {-webkit-transform:scaleX(0.9);-webkit-transform-origin:100% 0%;}
+100%   {-webkit-transform:scaleX(1.2);-webkit-transform-origin:100% 0%;}
+}
+
+.flipper{
+    left: 15px;
+    position: relative;
+    top: 230px;
+    animation:flipper 1s ease-in-out 0s infinite;
+    -webkit-animation:flipper 1s ease-in-out 0s infinite;
+}
+@keyframes flipper
+{
+0% {transform:scaleY(0.9);transform-origin:100% 0%;}
+40% {transform:scaleY(1.2);transform-origin:100% 0%;}
+100%   {transform:scaleY(0.9);transform-origin:100% 0%;}
+}
+@-webkit-keyframes flipper
+{
+0% {-webkit-transform:scaleY(0.9);-webkit-transform-origin:100% 0%;}
+40% {-webkit-transform:scaleY(1.2);-webkit-transform-origin:100% 0%;}
+100%   {-webkit-transform:scaleY(0.9);-webkit-transform-origin:100% 0%;}
+}
+
+
+.eye{
+    left: 15px;
+    position: relative;
+    top: 160px;
+}
+
+@keyframes eye
+{
+0% {transform:scaleY(1.0);transform-origin:50% 50%;}
+50% {transform:scaleY(0.1);transform-origin:50% 50%;}
+100%   {transform:scaleY(1.0);transform-origin:50% 50%;}
+}
+@-webkit-keyframes eye
+{
+0% {-webkit-transform:scaleY(1.0);-webkit-transform-origin:50% 50%;}
+50% {-webkit-transform:scaleY(0.1);-webkit-transform-origin:50% 50%;}
+100%   {-webkit-transform:scaleY(1.0);-webkit-transform-origin:50% 50%;}
+}
+
+.narwhal-tipsy:hover .eye{
+    animation:eye .4s ease-in-out .3s 1;
+    -webkit-animation:eye .4s ease-in-out .3s 1;
+}
+
+.narwhal-movement{
+    animation:narwhal-movement 54s ease-in-out 2s infinite;
+    -webkit-animation:narwhal-movement 54s ease-in-out 2s infinite;
+}
+
+@keyframes narwhal-movement
+{
+0% {bottom:-80px; left:-500px;}
+10%{left:0px;}
+20%{left:500px;}
+50% {bottom:-100px;left:2000px;transform: scale(.5,.5);}
+51%{transform: scale(-.5,.5);}
+60%{bottom:-80px;left:1500px;}
+70%{left:1000px;}
+100%   {left:-500px;transform: scale(-.5,.5);}
+}
+
+@-webkit-keyframes narwhal-movement
+{
+0% {bottom:-80px; left:-500px;}
+10%{left:0px;}
+20%{left:500px;}
+50% {bottom:-100px;left:2000px;-webkit-transform: scale(.5,.5);}
+51%{-webkit-transform: scale(-.5,.5);}
+60%{bottom:-80px;left:1500px;}
+70%{left:1000px;}
+100%   {left:-500px;-webkit-transform: scale(-.5,.5);}
+}
+
+.narwhal-tipsy{
+    width:530px;
+    height:350px;
+    position:relative;
+    pointer-events: auto;
+}
+
+.narwhal-tipsy{
+    animation:narwhal-tipsy 4s ease 0s infinite;
+    -webkit-animation:narwhal-tipsy 4s ease 0s infinite;
+}
+@keyframes narwhal-tipsy
+{
+0% {transform: rotate(-3deg);}
+60% {transform: rotate(8deg);}
+100%   {transform: rotate(-3deg);}
+}
+@-webkit-keyframes narwhal-tipsy
+{
+0% {-webkit-transform: rotate(-3deg);}
+60% {-webkit-transform: rotate(8deg);}
+100%   {-webkit-transform: rotate(-3deg);}
+}
+
+.water-layer{
+    position:fixed;
+    left:-50%;
+    bottom:0px;
+    width: 100%;
+    pointer-events: none;
+}
+.water-layer img{
+    width: 200%;
+}
+
+.water-movement1{
+    animation:water-movement1 12s ease 0s infinite;
+    -webkit-animation:water-movement1 12s ease 0s infinite;
+}
+@keyframes water-movement1
+{
+0% {bottom:0px;}
+50% {bottom:-30px;}
+100%   {bottom:0px;}
+}
+
+@-webkit-keyframes water-movement1 /* Safari and Chrome */
+{
+0% {bottom:0px;}
+50% {bottom:-30px;}
+100%   {bottom:0px;}
+}
+
+.water-movement2{
+    animation:water-movement2 4s linear 0s infinite;
+    -webkit-animation:water-movement2 4s linear 0s infinite;
+}
+@keyframes water-movement2
+{
+0% {left:-66%;}
+100%   {left:0%;}
+}
+
+@-webkit-keyframes water-movement2 /* Safari and Chrome */
+{
+0%   {left:-66%;}
+100% {left:0%;}
 }
