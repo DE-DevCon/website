@@ -28,4 +28,12 @@ return function(\Slim\Slim $app) {
 
         $app->render('cfp.html', ['page' => 'cfp']);
     });
+
+    $app->get('/faq', function() use($app) {
+        $app->render('faq.html', ['page' => 'faq']);
+    })->name('faq');
+
+    $app->get('/schedule', function() use($app) {
+        $app->render('schedule.html', ['page' => 'schedule']);
+    })->name('schedule');
 };
