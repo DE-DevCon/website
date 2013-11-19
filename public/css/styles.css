@@ -13,6 +13,10 @@
     padding-top:147px;
     margin-top:-147px;
 }
+.jumbotron-other{
+    font-size: 14px;
+    line-height: 1.4;
+}
 .jumbotron p{
     margin:30px;
 }
