@@ -215,3 +215,19 @@
 0%   {left:-66%;}
 100% {left:0%;}
 }
+@media screen and (max-width: 1024px) {
+  .water-layer, .narwhal {display:none;}
+}
+@media screen and (max-width: 767px) {
+    .navbar-default .navbar-nav > li > a {
+        padding:10px;
+        font-size:1.3em;
+        text-align:center;
+    }
+    .navbar-default .navbar-nav > li {
+        border-top:1px solid #151515;
+    }
+    .logo img{width:70%;}
+}
+
+
