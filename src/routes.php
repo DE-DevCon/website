@@ -19,4 +19,8 @@ return function(\Slim\Slim $app) {
     $app->get('/schedule', function() use($app) {
         $app->render('schedule.html', ['page' => 'schedule']);
     })->name('schedule');
+
+    $app->get('/survey', function() use($app) {
+        $app->render('survey.html', ['page' => 'survey']);
+    })->name('survey');
 };
