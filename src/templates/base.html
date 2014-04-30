@@ -11,11 +11,8 @@
     <nav class="navbar navbar-default" role="navigation">
       <ul class="nav navbar-nav navbar-right">
         <li {% if page == "home" %} class="active" {% endif %}><a href="/">Home</a></li>
-        <li {% if page == "schedule" %} class="active" {% endif %}><a href="schedule">Schedule</a></li>
-        <li {% if page == "topics" %} class="active" {% endif %}><a href="topics">Topics</a></li>
-        <li {% if page == "people" %} class="active" {% endif %}><a href="people">People</a></li>
+        <li {% if page == "cfp" %} class="active" {% endif %}><a href="/cfp">Call for Papers</a></li>
         <li {% if page == "faq" %} class="active" {% endif %}><a href="faq">FAQs</a></li>
-        <li {% if page == "survey" %} class="active" {% endif %}><a href="survey">Survey</a></li>
       </ul>
     </nav>
     <div class="container">
@@ -31,7 +28,7 @@
       {% block content %}{% endblock %}
     </div>
     <div class="footer text-center">
-      <small>Pesented by the 12-B Quad at the home office.<br>&copy;2013 Dominion Enterprises | All rights reserved.<br><br></small>
+      <small>Pesented by the 12-B Quad at the home office.<br>&copy;2014 Dominion Enterprises | All rights reserved.<br><br></small>
     </div>
     
     <div class="water-layer water-movement2"><img src="images/water/water-bg2.svg" alt="Water"></div>
