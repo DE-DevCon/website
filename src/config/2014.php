@@ -4,7 +4,7 @@ return [
     'logo' => '/images/DEVcon-blue-small-2014.svg',
     'home' => [
         'news' => [
-            'The second annual 12Bcon is being planned now!  We hope to bring even more great topics to you this year.',
+            'The second annual DE Dev Con is being planned now!  We hope to bring even more great topics to you this year.',
             '<a href="https://drive.google.com/folderview?id=0B1RRAO3TxJk2RHBzcDNlcFBYbDA&usp=sharing">View the presentations from last year\'s sessions.</a>',
         ],
     ],
