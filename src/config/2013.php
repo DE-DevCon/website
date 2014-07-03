@@ -1,6 +1,7 @@
 <?php
 return [
     'year' => 2013,
+    'logo' => '/images/DEVcon-blue-small-2013.svg',
     'home' => [
         'news' => [
             '<a href="https://drive.google.com/folderview?id=0B1RRAO3TxJk2RHBzcDNlcFBYbDA&usp=sharing">View the presentations.</a>',

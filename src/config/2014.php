@@ -1,6 +1,7 @@
 <?php
 return [
     'year' => 2014,
+    'logo' => '/images/DEVcon-blue-small-2014.svg',
     'home' => [
         'news' => [
             'The second annual 12Bcon is being planned now!  We hope to bring even more great topics to you this year.',

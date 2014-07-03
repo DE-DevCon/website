@@ -35,7 +35,7 @@
         <div class="alert alert-success">{{ flash.success }}</div>
       {% endif %}
     </div>
-    <a href="{{ urlFor("#{year}-home") }}" class="logo"><img src="/images/DEVcon-blue-small.svg"></a>
+    <a href="{{ urlFor("#{year}-home") }}" class="logo"><img src="{{ logo }}"></a>
     <div class="container">
       {% block content %}{% endblock %}
     </div>
