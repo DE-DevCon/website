@@ -111,9 +111,6 @@ return [
             'description' => 'Virtual machines have changed the programming and systems engineering worlds for the better.  They have made things possible that were not possible before.  But have they reached their heyday?  What\'s in store for us in the future of virtualization?  These questions, and more, will be answered in this session on PaaS, LXC, Heroku, Docker, and more.',
         ],
     ],
-    'survey' => [
-        'surveyMonkeyId' => 'hnzsZS6PSIM7Xa6iwrVVwA_3d_3d',
-    ],
     'faq' => [
         'What is DeDevCon?' => 'DeDevCon is a developer conference being led by Chad Gray and Chris Ryan from floor 12B at Dominion Enterprises. Our goal is to bring the community of sharing you find at a larger developer conference to our co-workers here at Dominion Square.',
         'When is DeDevCon?' => 'DeDevCon is being planned for early December 2014. We will update the site with more information when it is available.',
