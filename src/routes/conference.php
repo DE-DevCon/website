@@ -35,11 +35,15 @@ return function(\Slim\Slim $app, array $options) {
         $app->get('/topics', function() use($app, $options) {
             $app->render('topics.html', ['page' => 'topics'] + $options);
         })->name("{$options['year']}-topics");
+    }
 
+    if (isset($options['people'])) {
         $app->get('/people', function() use($app, $options) {
             $app->render('people.html', ['page' => 'people'] + $options);
         })->name("{$options['year']}-people");
+    }
 
+    if (isset($options['schedule'])) {
         $app->get('/schedule', function() use($app, $options) {
             $app->render('schedule.html', ['page' => 'schedule'] + $options);
         })->name("{$options['year']}-schedule");

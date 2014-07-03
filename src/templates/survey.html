@@ -2,12 +2,13 @@
 {% block title %}Survey{% endblock %}
 {% block content %}
 <div class="jumbotron jumbotron-home jumbotron-other text-left">
-<h2>Conference Survey</h2>
+  <h2>Conference Survey</h2>
 
-<div id="surveyMonkeyInfo">
+  <div id="surveyMonkeyInfo">
     <div>
-        <script src="https://www.surveymonkey.com/jsEmbed.aspx?sm=hnzsZS6PSIM7Xa6iwrVVwA_3d_3d"> </script>
+      <script src="https://www.surveymonkey.com/jsEmbed.aspx?sm={{ survey.surveyMonkeyId }}"> </script>
     </div>
     Create your free online surveys with <a href="https://www.surveymonkey.com">SurveyMonkey</a> , the world's leading questionnaire tool.
+  </div>
 </div>
 {% endblock %}

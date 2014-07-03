@@ -16,7 +16,11 @@
         {% endif %}
         {% if topics %}
           <li {% if page == "topics" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-topics") }}">Topics</a></li>
+        {% endif %}
+        {% if people %}
           <li {% if page == "people" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-people") }}">People</a></li>
+        {% endif %}
+        {% if schedule %}
           <li {% if page == "schedule" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-schedule") }}">Schedule</a></li>
         {% endif %}
         {% if faq %}

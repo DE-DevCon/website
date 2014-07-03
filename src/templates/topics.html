@@ -2,90 +2,23 @@
 {% block title %}Topics{% endblock %}
 {% block content %}
 <div class="jumbotron jumbotron-home jumbotron-other text-left">
-<h2>Topic Details</h2>
+  <h2>Topic Details</h2>
 
+  {% for id, topic in topics %}
     <hr>
-    <a name="agile"></a>
-    <h4 class="list-group-item-heading">Agile + Scrum = +1 Keynote</h4>
-    <h5 class="list-group-item-heading"><a href="people#brandon_beigay">Brandon Beigay</a>, <a href="people#michelle_brooks">Michelle Brooks</a>, <a href="people#chante_velez">Chante Velez</a></h5>
-    <p class="list-group-item-text">Your project managers (2 of which are Certified ScrumMasters) will define Agile and present the Agile Manifesto.  There will be a video on "Scrum in less than 120 seconds" and a viral video "Sh*t Bad Scrum Masters Say" by Adam Weisbart.  The PM's will also review the Global Scrum Gathering they all attended in Las Vegas back in May.  There is a 5 minute summary video of the opening keynote speaker, Jeff Sutherland, the creator of Scrum, on "The Future of Work" and the closing keynote speaker, Alistair Cockburn, on Core Scrum and Barnacles.  We will discuss the concept of Open Space from the Scrum Gathering and end with a participation exercise we're calling "Candy Crush: Waterfall vs. Agile".</p>
+    <a name="{{ id }}"></a>
+    <h4 class="list-group-item-heading">{{ topic.title }}</h4>
+    <h5 class="list-group-item-heading">
+      {%- for presenter in topic.presenters -%}
+        {% if loop.last and not loop.first %}and {% endif -%}
+        <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
+        {%- if not loop.last %}, {% endif -%}
+      {%- endfor -%}
+    </h5>
+    <p class="list-group-item-text">{{ topic.description }}</p>
+  {% endfor %}
 
-    <hr>
-    <a name="depinjection"></a>
-    <h4 class="list-group-item-heading">Dependency Injection</h4>
-    <h5 class="list-group-item-heading"><a href="people#spencer_rinehart">Spencer Rinehart</a></h5>
-    <p class="list-group-item-text">Will be an introductory talk with an aim of teaching people the concepts and terminology of DI.  I will be going over the various forms of DI and the pros and cons of each one so that developers can know when and how to use DI.</p>
-
-    <hr>
-    <a name="azure"></a>
-    <h4 class="list-group-item-heading">Intro to Cloud with Windows Azure</h4>
-    <h5 class="list-group-item-heading"><a href="people#vincent_scrimenti">Vincent Scrimenti</a></h5>
-    <p class="list-group-item-text">Cloud Computing Explained
-        <ul>
-            <li>In a Nutshell</li>
-            <li>Benefits</li>
-            <li>What it means for IT</li>
-        </ul>
-    </p>
-    <p class="list-group-item-text">Windows Azure Platform Overview
-        <ul>
-            <li>The Microsoft Cloud</li>
-            <li>Microsoft Data Centers</li>
-            <li>Windows Azure Platform</li>
-            <li>Windows Azure Developing</li>
-            <li>Windows Azure Core Services</li>
-            <li>SQL Azure Relational Data Services</li>
-            <li>AppFabric Enterprise Services</li>
-        </ul>
-    </p>
-
-    <hr>
-    <a name="mongodb"></a>
-    <h4 class="list-group-item-heading">MongoDB</h4>
-    <h5 class="list-group-item-heading"><a href="people#dan_allen">Dan Allen</a></h5>
-    <p class="list-group-item-text">Will be going through the very basics of MongoDB client. From converting SQL commands to Mongo commands, to setting up your php to use MongoDB client. I will be going through examples as well as best practices and some gotchas that I discovered along the way. If time permits I will go through some other tools that can be used such as table export.</p>
-
-    <hr>
-    <a name="noui"></a>
-    <h4 class="list-group-item-heading">Vanishing Interfaces, Smart Devices, &amp; AI</h4>
-    <h5 class="list-group-item-heading"><a href="people#ryan_goodwin">Ryan Goodwin</a></h5>
-    <p class="list-group-item-text">"No user interface is the Best user interface!" said Giri Sow, the next-gen AI from John's smart phone.</p>
-    <p class="list-group-item-text">Wait.  What?  Only a few years ago we were scrambling to get ahead in the mobile world &amp; now we're faced with another paradigm shift:  the vanishing interface and the AI's that make it possible.  In this discussion, Ryan will present a mix of ideas from SXSW 2013 which cover topics on how to think "No UI", why that's awesome for the user, and where the next generation of AIs like Siri will take us.  Most importantly, we'll talk about how these concepts apply to our work in a web world from a product and programming perspective.</p>
-    <p class="list-group-item-text">This interactive discussion will feature some group discussion and light thought-experiments.</p>
-    <p class="list-group-item-text">#noUImyAI</p>
-
-    <hr>
-    <a name="oocalesthenics"></a>
-    <h4 class="list-group-item-heading">Get Your Code Into Shape with Object Calisthenics</h4>
-    <h5 class="list-group-item-heading"><a href="people#chad_gray">Chad Gray</a></h5>
-    <p class="list-group-item-text">Is your code readable? Testable? Maintainable? If you answered no to any or all of these questions Object Calisthenics can help.  In this session we will learn about programming exercises, formalized as a set of 9* "rules", know as Object Calisthenics.  By trying to follow these "rules" as much as possible, you will naturally change how you write code. If you already write code that is readable, testable, and maintainable, then these rules will help you write code that is more readable, more testable and more maintainable.</p>
-
-    <hr>
-    <a name="phpunit"></a>
-    <h4 class="list-group-item-heading">PhpUnit</h4>
-    <h5 class="list-group-item-heading"><a href="people#chris_ryan">Chris Ryan</a></h5>
-    <p class="list-group-item-text">PhpUnit is a tool for writing Unit Tests against PHP code.  We will start with the basics of PhpUnit and how to use it. From there we will have some example of Unit Tests and how to best utilize them. Test Driven development and adding Unit Tests to legacy applications will also be touched on.</p>
-
-    <hr>
-    <a name="security"></a>
-    <h4 class="list-group-item-heading">Web Security</h4>
-    <h5 class="list-group-item-heading"><a href="people#spencer_rinehart">Spencer Rinehart</a></h5>
-    <p class="list-group-item-text">Web Security is a huge topic.  This session will go through a simple application riddled with security holes, will explain what they are and how to find them, and will show how to plug the holes.  While the examples will be specific to PHP web applications, the general principles will apply elsewhere.</p>
-
-    <hr>
-    <a name="vagrant"></a>
-    <h4 class="list-group-item-heading">Vagrant</h4>
-    <h5 class="list-group-item-heading"><a href="people#anthony_bittle">Anthony Bittle</a></h5>
-    <p class="list-group-item-text">How many times have we released code to production that simply doesn’t run because of environmental differences?  How many conditions are in our code to run things differently in Windows?  Using virtualization, Vagrant makes it easy to create a consistent development environment whether you prefer to code in Mac, Windows, or Linux.  This talk covers the basics of how to use Vagrant, as well as how to provision a custom environment.</p>
-
-    <hr>
-    <a name="virtualization"></a>
-    <h4 class="list-group-item-heading">Virtual Machines: A relic of the past?</h4>
-    <h5 class="list-group-item-heading"><a href="people#spencer_rinehart">Spencer Rinehart</a></h5>
-    <p class="list-group-item-text">Virtual machines have changed the programming and systems engineering worlds for the better.  They have made things possible that were not possible before.  But have they reached their heyday?  What's in store for us in the future of virtualization?  These questions, and more, will be answered in this session on PaaS, LXC, Heroku, Docker, and more.</p>
-
-<hr>
-<p>If you have any questions please feel free to <a href="mailto:de12bcon@dominionenterprises.com">email us</a> for more details.</p>    
+  <hr>
+  <p>If you have any questions please feel free to <a href="mailto:de12bcon@dominionenterprises.com">email us</a> for more details.</p>    
 </div>
-
 {% endblock %}
