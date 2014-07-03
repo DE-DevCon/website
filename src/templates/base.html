@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width; initial-scale=1.0" />
     <title>{% block title %}{% endblock %} - DEVcon - Dominion Enterprises Developer Conference</title>
     <link href="//netdna.bootstrapcdn.com/bootswatch/3.0.0/cyborg/bootstrap.min.css" rel="stylesheet">
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="/css/styles.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-default" role="navigation">
       <ul class="nav navbar-nav navbar-right">
         <li {% if page == "home" %} class="active" {% endif %}><a href="/">Home</a></li>
-        <li {% if page == "cfp" %} class="active" {% endif %}><a href="/cfp">Call for Papers</a></li>
+        <li {% if page == "cfp" %} class="active" {% endif %}><a href="cfp">Call for Papers</a></li>
         <li {% if page == "faq" %} class="active" {% endif %}><a href="faq">FAQs</a></li>
       </ul>
     </nav>
@@ -23,7 +23,7 @@
         <div class="alert alert-success">{{ flash.success }}</div>
       {% endif %}
     </div>
-    <a href="/" class="logo"><img src="images/DEVcon-blue-small.svg"></a>
+    <a href="/" class="logo"><img src="/images/DEVcon-blue-small.svg"></a>
     <div class="container">
       {% block content %}{% endblock %}
     </div>
@@ -31,17 +31,17 @@
       <small>Pesented by the 12-B Quad at the home office.<br>&copy;2014 Dominion Enterprises | All rights reserved.<br><br></small>
     </div>
     
-    <div class="water-layer water-movement2"><img src="images/water/water-bg2.svg" alt="Water"></div>
+    <div class="water-layer water-movement2"><img src="/images/water/water-bg2.svg" alt="Water"></div>
     <div class="narwhal narwhal-movement">
         <div class="narwhal-tipsy">
-            <img class="fluke" src="images/water/fluke.svg" alt="Narwhal Fluke">
-            <img class="flipper" src="images/water/flipper.svg" alt="Narwhal Flipper">
-            <img class="eye" src="images/water/eye.svg" alt="Narwhal Eye">
-            <img class="body" src="images/water/narwhal.svg" alt="Narwhal">
+            <img class="fluke" src="/images/water/fluke.svg" alt="Narwhal Fluke">
+            <img class="flipper" src="/images/water/flipper.svg" alt="Narwhal Flipper">
+            <img class="eye" src="/images/water/eye.svg" alt="Narwhal Eye">
+            <img class="body" src="/images/water/narwhal.svg" alt="Narwhal">
         </div>
     </div>
-    <div class="water-layer water-movement1"><img src="images/water/water-bg1.svg" alt="Water"></div>
-    <div class="water-layer water-movement2"><img src="images/water/water-bg3.svg" alt="Water"></div>
+    <div class="water-layer water-movement1"><img src="/images/water/water-bg1.svg" alt="Water"></div>
+    <div class="water-layer water-movement2"><img src="/images/water/water-bg3.svg" alt="Water"></div>
 
   </body>
 </html>
