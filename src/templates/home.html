@@ -2,8 +2,9 @@
 {% block title %}Home{% endblock %}
 {% block content %}
   <div class="jumbotron jumbotron-home text-center">
-    <p>The second annual 12Bcon is being planned now!  We hope to bring even more great topics to you this year.</p>
-    <p><a href="https://drive.google.com/folderview?id=0B1RRAO3TxJk2RHBzcDNlcFBYbDA&usp=sharing">View the presentations from last year's sessions.</a></p>
+    {% for item in home.news %}
+      <p>{{ item }}</p>
+    {% endfor %}
     <hr />
     <p>Talk about us #DeDevCon #Narwhal</p>
   </div>
