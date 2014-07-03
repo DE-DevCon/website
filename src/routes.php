@@ -7,6 +7,6 @@ return function(\Slim\Slim $app) {
     });
 
     $app->group('/2014', function() use($app, $conference) {
-        $conference($app, ['year' => 2014, 'callForPapers' => true, 'faq' => true]);
+        $conference($app, require 'config/2014.php');
     });
 };

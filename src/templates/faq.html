@@ -2,44 +2,15 @@
 {% block title %}Frequently Asked Questions{% endblock %}
 {% block content %}
 <div class="jumbotron jumbotron-home text-left">
-<h2>Frequently Asked Questions</h2>
+  <h2>Frequently Asked Questions</h2>
+  {% for question, answer in faq %}
+    {% if not loop.first %}<hr>{% endif %}
+    <h4 class="list-group-item-heading">{{ question }}</h4>
+    <p class="list-group-item-text">{{ answer }}</p>
+  {% endfor %}
 
-<!--
-    <hr>
-    <h4 class="list-group-item-heading">Question</h4>
-    <p class="list-group-item-text">Answer</p>
-
- -->
-    <hr>
-    <h4 class="list-group-item-heading">What is DeDevCon?</h4>
-    <p class="list-group-item-text">DeDevCon is a developer conference being led by Chad Gray and Chris Ryan from floor 12B at Dominion Enterprises. Our goal is to bring the community of sharing you find at a larger developer conference to our co-workers here at Dominion Square.</p>
-
-    <hr>
-    <h4 class="list-group-item-heading">When is DeDevCon?</h4>
-    <p class="list-group-item-text">DeDevCon is being planned for early December 2014. We will update the site with more information when it is available.</p>
-
-    <hr>
-    <h4 class="list-group-item-heading">Who can attend?</h4>
-    <p class="list-group-item-text">Right now we are looking to have Dominion Enterprise employees attend the conference in the 20th floor conference rooms. We are also working to have the sessions recorded for those who are not in Dominion Square to view.</p>
-
-    <hr>
-    <h4 class="list-group-item-heading">Will it cost anything?</h4>
-    <p class="list-group-item-text">There is no cost for employees to attend; however, you should get approval with your manager since it may impact your department for the time you are in attendance of the conference.</p>
-
-    <hr>
-    <h4 class="list-group-item-heading">Will I learn anything?</h4>
-    <p class="list-group-item-text">Perhaps, that is entirely up to you. We are planning to have a broad range of technical topics of varying skill levels that we hope will be useful and educational.</p>
-
-    <hr>
-    <h4 class="list-group-item-heading">What is the deal with the Narwhal swimming on the bottom of this site?</h4>
-    <p class="list-group-item-text">The Narwhal is our mascot. Lucien Frelin is the awesome designer of the swimming Narwhal.</p>
-
-    <hr>
-    <h4 class="list-group-item-heading">Does the Narwhal have a name?</h4>
-    <p class="list-group-item-text">The Narwhal's name is Norman T Narwhal.</p>
-
-<hr>
-<p>If we don't cover it here feel free to <a href="mailto:de12bcon@dominionenterprises.com">email us</a> for more details.</p>
+  <hr>
+  <p>If we don't cover it here feel free to <a href="mailto:de12bcon@dominionenterprises.com">email us</a> for more details.</p>
 </div>
 
 {% endblock %}
