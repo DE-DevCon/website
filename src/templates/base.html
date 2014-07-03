@@ -11,8 +11,20 @@
     <nav class="navbar navbar-default" role="navigation">
       <ul class="nav navbar-nav navbar-right">
         <li {% if page == "home" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-home") }}">Home</a></li>
-        <li {% if page == "cfp" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-cfp") }}">Call for Papers</a></li>
-        <li {% if page == "faq" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-faq") }}">FAQs</a></li>
+        {% if callForPapers %}
+          <li {% if page == "cfp" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-cfp") }}">Call for Papers</a></li>
+        {% endif %}
+        {% if topics %}
+          <li {% if page == "topics" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-topics") }}">Topics</a></li>
+          <li {% if page == "people" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-people") }}">People</a></li>
+          <li {% if page == "schedule" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-schedule") }}">Schedule</a></li>
+        {% endif %}
+        {% if faq %}
+          <li {% if page == "faq" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-faq") }}">FAQs</a></li>
+        {% endif %}
+        {% if survey %}
+          <li {% if page == "survey" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-survey") }}">Survey</a></li>
+        {% endif %}
       </ul>
     </nav>
     <div class="container">
