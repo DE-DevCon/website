@@ -8,9 +8,9 @@ return [
             '<a href="https://drive.google.com/folderview?id=0B1RRAO3TxJk2RHBzcDNlcFBYbDA&usp=sharing">View the presentations from last year\'s sessions.</a>',
         ],
     ],
-    'callForPapers' => ['due' => '2014-11-01'],
+    'callForPapers' => ['due' => '2014-11-06'],
     'faq' => [
-        'What is DeDevCon?' => 'DeDevCon is a developer conference being led by Chad Gray and Chris Ryan from floor 12B at Dominion Enterprises. Our goal is to bring the community of sharing you find at a larger developer conference to our co-workers here at Dominion Square.',
+        'What is DeDevCon?' => 'DeDevCon is a developer conference being led by Chris Ryan from floor 12B at Dominion Enterprises and supported by TTAG. Our goal is to bring the community of sharing you find at a larger developer conference to our co-workers here at Dominion Square.',
         'When is DeDevCon?' => 'DeDevCon is being planned for Friday, December 12th.',
         'Who can attend?' => 'Right now we are looking to have Dominion Enterprise employees attend the conference in the 20th floor conference rooms. We are also working to have the sessions recorded for those who are not in Dominion Square to view.',
         'Can I give more than one presentation?' => 'If you submit more than one proposal we may select you to give multiple talks.',
