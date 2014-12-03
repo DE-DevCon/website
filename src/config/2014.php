@@ -30,6 +30,10 @@ return [
             'name' => 'Chris Cataldo',
             'description' => 'Senior Developer Recreational Brands Dominion Web Solutions',
         ],
+        'chris_ryan' => [
+            'name' => 'Chris Ryan',
+            'description' => 'Lead Developer Recreational Brands Dominion Web Solutions. With over 15 years of software development experience Chris brings an experienced knowledge of problem solving in the software field. With a passion for finding solutions, creating new things, and a slow, deliberate pace to understanding problems. Chris originally joined Trader Publishing\'s Electronic Media group in the late 90\s. After pursuing other opportunities he then returned back to Dominion in the Trader Online group back in 2011.',
+        ],
         'guillermo_fisher' => [
             'name' => 'Guillermo Fisher',
             'description' => 'Guillermo Fisher joined Trader Electronic Media in November of 2004 as an HTML Developer. Shortly thereafter, he transitioned into a programming role on Trader Publishing Company’s City Web Services team. Guillermo left Trader Publishing just prior to the company’s split and moved on to Harris Connect. Between 2006 and 2009, he took on programming roles at Gannett Media Technologies International, Cox Auto Trader Publishing, and the Nebraska-based Elevate Visual Communications. In November of 2009, he made his way back to Dominion Enterprises as a Senior Programmer with TOL’s Core team. In 2010, Guillermo became part of Dominion Marine Media, working first as a Senior Software Engineer, then Software Architect, and, most recently, Engineering Manager. Earlier this year, he became Director of Enterprise Release Engineering, and has since been managing Dominion Enterprises’ GitHub Enterprise Project and spearheading the OpenDE initiative.<p>
@@ -54,6 +58,10 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'matt_strapko' => [
             'name' => 'Matt Strapko',
             'description' => 'Matt Strapko has been with DE for two and a half years as an HRIS developer of aspect-oriented applications and CORS web services for ASK4HR, DE Portal, and Self-Service.  He will graduate next year with a master\'s in software engineering from East Carolina University',
+        ],
+        'michael_alston' => [
+            'name' => 'Michael Alston',
+            'description' => 'President, Landmark Interactive at Dominion Enterprises',
         ],
         'michelle_brooks' => [
             'name' => 'Michelle Brooks',
@@ -125,6 +133,11 @@ I\'ll summarize the major problems users encounters and the UX design patterns o
             'presenters' => ['jp_murray'],
             'description' => 'Agile Programming from the perspective of a developer who has put the principles in practice.',
         ],
+        'apigee' => [
+            'title' => 'Apigee: Introduction',
+            'presenters' => ['chris_ryan'],
+            'description' => 'Apigee is an API Platform. In this talk we will briefly cover what Apigee is and how the TOL sites are using it as a facade layer. Then we will cover some of the different ways Apigee can be set up including using their XML rules, Javascript, and NodeJS engines.',
+        ],
         'TBD' => [
             'title' => 'To Be Determined',
             'description' => 'We are still working on the details for this presentation.',
@@ -136,7 +149,7 @@ I\'ll summarize the major problems users encounters and the UX design patterns o
         '2014-12-15 11:00 EST' => ['room1' => 'docker', 'room2' => 'scrum_jambalaya'],
         '2014-12-15 12:00 EST' => 'Lunch',
         '2014-12-15 13:00 EST' => ['room1' => 'apis', 'room2' => 'employee_experience'],
-        '2014-12-15 14:00 EST' => ['room1' => 'TBD', 'room2' => 'search_experience'],
+        '2014-12-15 14:00 EST' => ['room1' => 'apigee', 'room2' => 'search_experience'],
         '2014-12-15 15:00 EST' => ['room1' => 'agile', 'room2' => 'TBD'],
     ],
     'faq' => [
