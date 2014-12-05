@@ -41,7 +41,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'heath_padrick' => [
             'name' => 'Heath Padrick',
-            'description' => 'Dominion Marine Media',
+            'description' => 'Using FrontPage 2000 and AngelFire, Heath started his career in web design by fulfilling the requirement for a website that his band needed at the time. From there, a passion for web development consumed him.<p>
+Heath joined Dominion Marine Media in March of 2012 and quickly fell in love with the atmosphere and personalities of his co-workers.<p>
+He lives in Yorktown, VA with his wife, son, and brand new daughter. Most weekends are filled by spending time with family, practicing guitar, and fighting with the entertainment system.',
         ],
         'jon_kranz' => [
             'name' => 'Jon Kranz',
