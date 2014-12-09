@@ -20,7 +20,8 @@ return [
         ],
         'brandon_shoop' => [
             'name' => 'Brandon Shoop',
-            'description' => 'Dominion Marine Media',
+            'description' => 'Brandon started with Trader Electronic Media in 2005 with the "Autos Group" and left when the company split in 2006.  Between 2006 and 2013, Brandon worked as a developer for Cox Auto Trader, GMTI and Beliefnet.com.  He has spent most of his career developing PHP applications but considers himself more of a hacker than a developer.  Brandon started with Dominion Marine Media in January of 2013 and hasn\'t looked back.<p>
+Brandon currently resides in Northern Suffolk with his wife and two sons.',
         ],
         'chante_velez' => [
             'name' => 'Chante Velez',
