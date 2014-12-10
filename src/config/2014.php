@@ -4,8 +4,8 @@ return [
     'logo' => '/images/DEVcon-blue-small-2014.svg',
     'home' => [
         'news' => [
-            'The second annual DE Dev Con is coming Monday, December 15th! We have some great topics for you this year. Check back soon to see the schdule of talks.',
-            '<a href="https://drive.google.com/folderview?id=0B1RRAO3TxJk2RHBzcDNlcFBYbDA&usp=sharing">View the presentations from last year\'s sessions.</a>',
+            'The second annual DE Dev Con is coming Monday, December 15th! We have some great topics for you this year. The full <a href="/2014/schedule">Schedule</a> is online now!',
+            '<!-- <a href="https://drive.google.com/folderview?id=0B1RRAO3TxJk2RHBzcDNlcFBYbDA&usp=sharing">View the presentations from last year\'s sessions.</a> -->',
         ],
     ],
     'people' => [
