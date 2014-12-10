@@ -141,9 +141,10 @@ I\'ll summarize the major problems users encounters and the UX design patterns o
             'presenters' => ['chris_ryan'],
             'description' => 'Apigee is an API Platform. In this talk we will briefly cover what Apigee is and how the TOL sites are using it as a facade layer. Then we will cover some of the different ways Apigee can be set up including using their XML rules, Javascript, and NodeJS engines.',
         ],
-        'TBD' => [
-            'title' => 'To Be Determined',
-            'description' => 'We are still working on the details for this presentation.',
+        'geo_targeting' => [
+            'title' => 'Options for Mobile Geo-Targeting',
+            'presenters' => ['michael_alston'],
+            'description' => 'Options for Mobile Geo-Targeting and Location-Based Marketing.',
         ]
     ],
     'schedule' => [
@@ -153,7 +154,7 @@ I\'ll summarize the major problems users encounters and the UX design patterns o
         '2014-12-15 12:00 EST' => 'Lunch',
         '2014-12-15 13:00 EST' => ['room1' => 'apis', 'room2' => 'employee_experience'],
         '2014-12-15 14:00 EST' => ['room1' => 'apigee', 'room2' => 'search_experience'],
-        '2014-12-15 15:00 EST' => ['room1' => 'agile', 'room2' => 'TBD'],
+        '2014-12-15 15:00 EST' => ['room1' => 'agile', 'room2' => 'geo_targeting'],
     ],
     'faq' => [
         'What is DeDevCon?' => 'DeDevCon is a developer conference being led by Chris Ryan from floor 12B at Dominion Enterprises and supported by TTAG. Our goal is to bring the community of sharing you find at a larger developer conference to our co-workers here at Dominion Square.',
