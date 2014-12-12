@@ -97,7 +97,7 @@ He lives in Yorktown, VA with his wife, son, and brand new daughter. Most weeken
         'analytics' => [
             'title' => 'Architecting Analytics',
             'presenters' => ['jon_kranz', 'chris_cataldo'],
-            'description' => 'Creating resilient environments for analysis and measurement',
+            'description' => 'Learn from our experience completely revamping our analytics framework from the ground-up. What led us to change everything and what we decided to do. Lastly we’ll dive into how we actually did it using code examples and more.',
         ],
         'employee_experience' => [
             'title' => 'Integrating the Employee Experience',
