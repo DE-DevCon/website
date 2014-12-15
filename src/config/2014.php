@@ -56,7 +56,7 @@ He lives in Yorktown, VA with his wife, son, and brand new daughter. Most weeken
         ],
         'kelley_howell' => [
             'name' => 'Kelley Howell',
-            'description' => 'UI/UX for Homes.com',
+            'description' => 'Kelly Howell is UX Research Manager at Homes.com. She has been working in the field of User Experience and User Interface development since 1996 when she helped build one of the first online learning courses at her university. In the process, she was introduced to the wild, wild world of Web development, user experience research, and interaction desgin.',
         ],
         'matt_strapko' => [
             'name' => 'Matt Strapko',
