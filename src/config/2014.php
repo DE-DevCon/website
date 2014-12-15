@@ -165,4 +165,7 @@ I\'ll summarize the major problems users encounters and the UX design patterns o
         'What is the deal with the Narwhal swimming on the bottom of this site?' => 'The Narwhal is our mascot. Lucien Frelin is the awesome designer of the swimming Narwhal.',
         'Does the Narwhal have a name?' => 'The Narwhal\'s name is Norman T Narwhal.',
     ],
+    'survey' => [
+        'surveyMonkeyId' => 'fpm4SatVrfNMJeROhb70J9fB8jtrYdQ2KZOJuWOujz4_3D',
+    ],
 ];
