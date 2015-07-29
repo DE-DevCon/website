@@ -2,37 +2,46 @@
 {% block title %}Call For Papers{% endblock %}
 {% block content %}
 <div class="jumbotron jumbotron-home text-left">
-  <h2>Get your proposals in by {{ callForPapers.due|date('F jS, Y') }}!</h2>
-  <p>We are looking for a variety of talks on work-related subjects. Talks should be 50 minutes in length.</p>
-  <p>You don't need to submit your full presentation: just a brief overview of what materials will be covered is needed.</p>
-  <hr>
-  <h2>Fill out this form to share at DeDevCon.</h2>
+    <center>
+        <h1>DE DevCon Call for Papers</h1>
+        <h2>Get your proposals in by {{ callForPapers.due|date('F jS, Y') }}!</h2>
+    </center>
+  <hr />
   <form class="bs-example form-horizontal" method="post">
     <fieldset>
       <div class="form-group">
         <label class="col-lg-2 control-label" for="cfpName">Name</label>
         <div class="col-lg-10">
-          <input type="text" placeholder="Name" id="cfpName" name="name" class="form-control">
+          <input type="text" placeholder="Your Name" id="cfpName" name="name" class="form-control">
         </div>
       </div>
       <div class="form-group">
         <label class="col-lg-2 control-label" for="cfpEmail">Email</label>
         <div class="col-lg-10">
-          <input type="text" placeholder="Email" id="cfpEmail" name="email" class="form-control">
+          <input type="text" placeholder="Your Email" id="cfpEmail" name="email" class="form-control">
         </div>
       </div>
       <div class="form-group">
-        <label class="col-lg-2 control-label" for="cfpSummary">Paper Summary</label>
+        <label class="col-lg-2 control-label" for="cfpSummary">Summary</label>
         <div class="col-lg-10">
-          <textarea id="cfpSummary" rows="3" class="form-control" placeholder="You don't need to submit your full presentation. Just a brief overview of what materials will be covered is needed." name="summary"></textarea>
+          <textarea id="cfpSummary" rows="3" class="form-control" placeholder="A brief overview of what materials will be covered." name="summary"></textarea>
         </div>
       </div>
       <div class="form-group">
         <div class="col-lg-10 col-lg-offset-2">
-          <button class="btn btn-primary" type="submit">Submit</button> 
+          <button class="btn btn-primary" type="submit">Submit Proposal</button> 
         </div>
       </div>
     </fieldset>
   </form>
+  <hr />
+  <h2>What we're looking for</h2>
+  <p>We are looking for a variety of talks on work-related subjects. Talks should be 50 minutes in length. We want a wide variety of topics, including but not limited to DevOps, Big Data, and Software Engineering</p>
+  <h2>What to expect</h2>
+  <p>When the Call for Papers closes, the organizers will sort through the submissions, making their selections. Speakers will be notified as soon as the selection process has been completed. Our aim is to decide within a couple of weeks, but this is not a firm timeframe.</p>
+  <hr />
+  <h2>Tips for submission</h2>
+  <p>We strongly encourage potential speakers to submit more than one submission on more than one topic. The more submissions you contribute, the more options you give us to choose you as a speaker. Be sure your talk title and abstract define the exact topic you want to speak about and what you hope people will learn from the session.</p> 
+
 </div>
 {% endblock %}
