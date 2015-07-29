@@ -1,7 +1,7 @@
 <?php
 return [
     'year' => 2015,
-    'logo' => '/images/DEVcon-blue-small-no-date.svg',
+    'logo' => '/images/DEVcon-blue-small-2015.svg',
     'home' => [
         'news' => [
             'DE DevCon III',
