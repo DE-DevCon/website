@@ -18,7 +18,7 @@ return function(\Slim\Slim $app, array $options) {
                         'from' => "{$req->post('name')} <{$req->post('email')}>",
                         'to' => $app->cfpEmail,
                         'subject' => 'Call For Papers',
-                        'text' => $req->post('summary'),
+                        'text' => "{$req->post('size')}\n\n{$req->post('summary')}",
                     ]
                 );
 
