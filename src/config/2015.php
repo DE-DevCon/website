@@ -8,7 +8,10 @@ return [
             'Coming This October',
         ],
     ],
-    'callForPapers' => ['due' => '2015-09-04'],
+    'callForPapers' => [
+        'due' => '2015-08-28',
+        'selection' => '2015-09-07',
+    ],
     'people' => [],
     'schedule' => [],
     'topics' => [],
