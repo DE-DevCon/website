@@ -10,8 +10,8 @@ return [
         ],
     ],
     'callForPapers' => [
-        'due' => '2015-08-28',
-        'selection' => '2015-09-07',
+        'due' => '2015-09-04',
+        'selection' => '2015-09-14',
     ],
     'people' => [],
     'schedule' => [],
