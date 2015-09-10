@@ -4,9 +4,7 @@ return [
     'logo' => '/images/DEVcon-blue-small-2015.svg',
     'home' => [
         'news' => [
-            'DE DevCon III is coming Thursday, October 8th!',
-            "We're looking for a few good presenters.",
-            'Visit our <a href="/2015/cfp">Call For Papers</a> page to submit your proposal today!',
+            'The third annual DE Dev Con is coming Thursday, October 8th! We have some great topics for you this year. The full <a href="/2015/schedule">Schedule</a> is online now!',
         ],
     ],
     'callForPapers' => [
