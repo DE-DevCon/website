@@ -7,10 +7,6 @@ return [
             'The third annual DE Dev Con is coming Thursday, October 8th! We have some great topics for you this year. The full <a href="/2015/schedule">Schedule</a> is online now!',
         ],
     ],
-    'callForPapers' => [
-        'due' => '2015-09-04',
-        'selection' => '2015-09-14',
-    ],
     'people' => [],
     'schedule' => [],
     'topics' => [],
