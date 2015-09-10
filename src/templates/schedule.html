@@ -10,6 +10,7 @@
   <ul>
     <li>Room 1 Lynnhaven <a href="http://dominionenterprises.adobeconnect.com/devcon1">http://dominionenterprises.adobeconnect.com/devcon1</a></li>
     <li>Room 2 York <a href="http://dominionenterprises.adobeconnect.com/devcon2">http://dominionenterprises.adobeconnect.com/devcon2</a></li>
+    <li>Room 3 Rappahannock <a href="http://dominionenterprises.adobeconnect.com/devcon3">http://dominionenterprises.adobeconnect.com/devcon3</a></li>
   </ul>
   </p>
   <hr>
@@ -19,19 +20,20 @@
         <th>Time</th>
         <th>Lynnhaven Room</th>
         <th>York Room</th>
+        <th>Rappahannock Room</th>
       </tr>
     </thead>
     <tbody>
     {% for time, slot in schedule %}
     <tr>
       <td>{{ time|date('g:ia') }}</td>
-      {% if slot.room1 or slot.room2 %}
+      {% if slot.room1 or slot.room2 or slot.room3 %}
         {% if slot.room1 %}
           <td>
             <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room1}}">{{ topics[slot.room1].title }}</a></h4>
             <h5>
               {%- for presenter in topics[slot.room1].presenters -%}
-                {% if loop.last and not loop.first %}and {% endif -%}
+                {% if loop.last and not loop.first %}&amp; {% endif -%}
                 <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
                 {%- if not loop.last %}, {% endif -%}
               {%- endfor -%}
@@ -52,8 +54,21 @@
         {% else %}
           <td><h4>No Session</h4></td>
         {% endif %}
+        {% if slot.room3 %}
+          <td>
+            <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room3}}">{{ topics[slot.room3].title }}</a></h4>
+            <h5>
+              {%- for presenter in topics[slot.room3].presenters -%}
+                {% if loop.last and not loop.first %}and {% endif -%}
+                <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
+                {%- if not loop.last %}, {% endif -%}
+              {%- endfor -%}
+            </h5>
+        {% else %}
+          <td><h4>No Session</h4></td>
+        {% endif %}
       {% else %}
-        <td colspan="2"><h4><center>{{ slot }}</center></h4></td>
+        <td colspan="3"><h4><center>{{ slot }}</center></h4></td>
       {% endif %}
       <td>&nbsp;</td>
     </tr>
