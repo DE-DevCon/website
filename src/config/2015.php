@@ -1,7 +1,7 @@
 <?php
 return [
     'year' => 2015,
-    'logo' => '/images/DEVcon-blue-small-2015.svg',
+    'logo' => 'http://cdn0.traderonline.com/v1/media/de-dev-con-new-blue.png',
     'home' => [
         'news' => [
             'The third annual DE Dev Con is coming Thursday, October 8th! We have some great topics for you this year. The full <a href="/2015/schedule">Schedule</a> is online now!',

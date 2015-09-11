@@ -39,7 +39,7 @@
         <div class="alert alert-success">{{ flash.success }}</div>
       {% endif %}
     </div>
-    <a href="{{ urlFor("#{year}-home") }}" class="logo"><img src="http://cdn0.traderonline.com/v1/media/de-dev-con-new-blue.png" /></a>
+    <a href="{{ urlFor("#{year}-home") }}" class="logo"><img src="{{ logo }}"></a>
     <div class="container">
       {% block content %}{% endblock %}
     </div>
