@@ -19,4 +19,7 @@ return [
         'What is the deal with the Narwhal swimming on the bottom of this site?' => 'The Narwhal is our mascot. Lucien Frelin is the awesome designer of the swimming Narwhal.',
         'Does the Narwhal have a name?' => 'The Narwhal\'s name is Norman T Narwhal.',
     ],
+    'uncon' => [
+        '2015-10-08 10:00' => 'What is DE Labs? Find out in this 15 minute talk',
+    ],
 ];
