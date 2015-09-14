@@ -61,13 +61,13 @@ return [
         'chris_ryan' => [
             'name' => 'Chris Ryan',
             'description' => "Lead Developer Recreational Brands Dominion Web Solutions. With over 15 years of software development experience Chris brings an experienced knowledge of problem solving in the software field. With a passion for finding solutions, creating new things, and a slow, deliberate pace to understanding problems. Chris originally joined Trader Publishing's Electronic Media group in the late 90's. After pursuing other opportunities he then returned back to Dominion in the Trader Online group back in 2011.",
-            'twitter' => null,
+            'twitter' => 'cryancoder',
         ],
         'guillermo_fisher' => [
             'name' => 'Guillermo Fisher',
             'description' => 'Guillermo Fisher joined Trader Electronic Media in November of 2004 as an HTML Developer. Shortly thereafter, he transitioned into a programming role on Trader Publishing Company’s City Web Services team. Guillermo left Trader Publishing just prior to the company’s split and moved on to Harris Connect. Between 2006 and 2009, he took on programming roles at Gannett Media Technologies International, Cox Auto Trader Publishing, and the Nebraska-based Elevate Visual Communications. In November of 2009, he made his way back to Dominion Enterprises as a Senior Programmer with TOL’s Core team. In 2010, Guillermo became part of Dominion Marine Media, working first as a Senior Software Engineer, then Software Architect, and, most recently, Engineering Manager. Earlier this year, he became Director of Enterprise Release Engineering, and has since been managing Dominion Enterprises’ GitHub Enterprise Project and spearheading the OpenDE initiative.<p>
 Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 10 years and his four kids; his oldest son is currently attending VCU.',
-            'twitter' => null,
+            'twitter' => 'guillermoandrae',
         ],
         'joe_legeckis' => [
             'name' => 'Joe Legeckis',
