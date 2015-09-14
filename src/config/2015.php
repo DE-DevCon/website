@@ -101,7 +101,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'jose_mateo' => [
             'name' => 'Jose Mateo',
-            'description' => null,
+            'description' => "Jose Mateo is the Android Developer for Dominion Web Solutions' recreational brands and has been with the company since July 2014. During his short time with DWS, Android apps for the business have seen a drastic increase in ratings and positive user feedback. With over 50,000 downloads, the Cycle Trader app is in the top 500 in the Play Store for Lifestyle apps. Jose is also the founder of Rocket Science, a startup that has helped other start ups build their mobile apps  and websites in a cost efficient way.",
             'twitter' => null,
         ],
     ],
@@ -240,9 +240,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => "Without a Javascript interpreter we only get the source code of a website and not how it looks after Javascript has run.<br />For black hats: In this talk, you will learn how to write an automated tool that gets that website's content after Javascript has run and how to hide your IP while getting that content without touching your machine's internet connection.<br /> For white hats: In this talk, you will learn how to write an automated tool to test your website's content after Javascript has run as someone coming from outside your network (e.g. a customer) without touching your machine's internet connection.</p>",
         ],
         'getting_started_with_android_development' => [
-            'title' => 'Getting started with Android Development',
+            'title' => 'Getting Started with Android Development',
             'presenters' => ['jose_mateo'],
-            'description' => ' Demonstrate how to quickly build android apps using open source libraries. The talk would cover how to set up an android project, consume RESTful services, and display data using android standard components.',
+            'description' => "Learn how to do develop for the world's most popular smartphone platform. You'll get hands-on experience developing a native Android app that will employ some  of the major components available in the framework. This talk is ideal for anyone new to the platform who needs an efficient way to get up to speed quickly.<br /> You'll become familiar with the following topics:<br /> <ul> <li>Creating Activites to control the UI</li> <li>Using the RecyclerView to efficiently load unlimited amounts of content.</li> <li>Consuming RESTful API's using open source libraries</li> <li>Efficiently displaying images on the UI</li> <li>Handling user interaction</li></ul>",
         ],
     ],
     'faq' => [
