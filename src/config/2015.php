@@ -96,7 +96,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'alfredo_liu_perez' => [
             'name' => 'Alfredo Liu-Perez',
-            'description' => null,
+            'description' => "I have worked at Powersports Network (PSN) as a Software Developer for over 3 years. We don't use Python at PSN, so I use for quick one-time jobs like when I had to scrape new Harley Davidson images and data for our customers that for some reason Kapow could not get.",
             'twitter' => null,
         ],
         'jose_mateo' => [
@@ -235,9 +235,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => ' Near real-time event streaming at ForRent',
         ],
         'dynamic_javascript_content' => [
-            'title' => 'Dynamic Javascript Content',
+            'title' => 'How to Use Python to Get Javascript-generated Content and Secretly Spy on Your competition, or Something Nicer Than That.',
             'presenters' => ['alfredo_liu_perez'],
-            'description' => ' How to use Python, BeautifulSoup, and PhantomJS to scrape websites that display dynamic javascript content.',
+            'description' => "Without a Javascript interpreter we only get the source code of a website and not how it looks after Javascript has run.<br />For black hats: In this talk, you will learn how to write an automated tool that gets that website's content after Javascript has run and how to hide your IP while getting that content without touching your machine's internet connection.<br /> For white hats: In this talk, you will learn how to write an automated tool to test your website's content after Javascript has run as someone coming from outside your network (e.g. a customer) without touching your machine's internet connection.</p>",
         ],
         'getting_started_with_android_development' => [
             'title' => 'Getting started with Android Development',
