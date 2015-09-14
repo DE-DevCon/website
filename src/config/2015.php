@@ -15,7 +15,7 @@ return [
         ],
         'jeff_wolski' => [
             'name' => 'Jeff Wolski',
-            'description' => null,
+            'description' => 'Jeff Wolski is a database developer at ForRent, father of 4, woodworker, horror movie buff, student, maker, vegetarian, and coffee lover.',
             'twitter' => null,
         ],
         'josiah_baker' => [
@@ -149,7 +149,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'information_radiators' => [
             'title' => 'Information Radiators',
             'presenters' => ['jeff_wolski'],
-            'description' => ' I\'d like to talk about information radiators and dashboards here at DE. I developed one for ForRent which is being widely used, and it has helped our business monitor how changes in our code affect our users.',
+            'description' => '"An Information radiator is a display posted in a place where people can see it as they work or walk by. It shows readers information they care about without having to ask anyone a question. This means more communication with fewer interruptions." - Alistair Cockburn.<br />This presentation will show the evolution of the "Dash" information radiator project and how it has helped our business.',
         ],
         'ad_features_analysis_using_multivariable_regression' => [
             'title' => 'Ad Features Analysis using Multivariable Regression',
