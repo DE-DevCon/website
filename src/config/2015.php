@@ -15,7 +15,7 @@ return [
         ],
         'jeff_wolski' => [
             'name' => 'Jeff Wolski',
-            'description' => null,
+            'description' => 'Jeff Wolski is a database developer at ForRent, father of 4, woodworker, horror movie buff, student, maker, vegetarian, and coffee lover.',
             'twitter' => null,
         ],
         'josiah_baker' => [
@@ -61,13 +61,13 @@ return [
         'chris_ryan' => [
             'name' => 'Chris Ryan',
             'description' => "Lead Developer Recreational Brands Dominion Web Solutions. With over 15 years of software development experience Chris brings an experienced knowledge of problem solving in the software field. With a passion for finding solutions, creating new things, and a slow, deliberate pace to understanding problems. Chris originally joined Trader Publishing's Electronic Media group in the late 90's. After pursuing other opportunities he then returned back to Dominion in the Trader Online group back in 2011.",
-            'twitter' => null,
+            'twitter' => 'cryancoder',
         ],
         'guillermo_fisher' => [
             'name' => 'Guillermo Fisher',
             'description' => 'Guillermo Fisher joined Trader Electronic Media in November of 2004 as an HTML Developer. Shortly thereafter, he transitioned into a programming role on Trader Publishing Company’s City Web Services team. Guillermo left Trader Publishing just prior to the company’s split and moved on to Harris Connect. Between 2006 and 2009, he took on programming roles at Gannett Media Technologies International, Cox Auto Trader Publishing, and the Nebraska-based Elevate Visual Communications. In November of 2009, he made his way back to Dominion Enterprises as a Senior Programmer with TOL’s Core team. In 2010, Guillermo became part of Dominion Marine Media, working first as a Senior Software Engineer, then Software Architect, and, most recently, Engineering Manager. Earlier this year, he became Director of Enterprise Release Engineering, and has since been managing Dominion Enterprises’ GitHub Enterprise Project and spearheading the OpenDE initiative.<p>
 Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 10 years and his four kids; his oldest son is currently attending VCU.',
-            'twitter' => null,
+            'twitter' => 'guillermoandrae',
         ],
         'joe_legeckis' => [
             'name' => 'Joe Legeckis',
@@ -96,7 +96,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'alfredo_liu_perez' => [
             'name' => 'Alfredo Liu-Perez',
-            'description' => null,
+            'description' => "I have worked at Powersports Network (PSN) as a Software Developer for over 3 years. We don't use Python at PSN, so I use for quick one-time jobs like when I had to scrape new Harley Davidson images and data for our customers that for some reason Kapow could not get.",
             'twitter' => null,
         ],
         'jose_mateo' => [
@@ -149,7 +149,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'information_radiators' => [
             'title' => 'Information Radiators',
             'presenters' => ['jeff_wolski'],
-            'description' => ' I\'d like to talk about information radiators and dashboards here at DE. I developed one for ForRent which is being widely used, and it has helped our business monitor how changes in our code affect our users.',
+            'description' => '"An Information radiator is a display posted in a place where people can see it as they work or walk by. It shows readers information they care about without having to ask anyone a question. This means more communication with fewer interruptions." - Alistair Cockburn.<br />This presentation will show the evolution of the "Dash" information radiator project and how it has helped our business.',
         ],
         'ad_features_analysis_using_multivariable_regression' => [
             'title' => 'Ad Features Analysis using Multivariable Regression',
@@ -235,9 +235,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => ' Near real-time event streaming at ForRent',
         ],
         'dynamic_javascript_content' => [
-            'title' => 'Dynamic Javascript Content',
+            'title' => 'How to Use Python to Get Javascript-generated Content and Secretly Spy on Your competition, or Something Nicer Than That.',
             'presenters' => ['alfredo_liu_perez'],
-            'description' => ' How to use Python, BeautifulSoup, and PhantomJS to scrape websites that display dynamic javascript content.',
+            'description' => "Without a Javascript interpreter we only get the source code of a website and not how it looks after Javascript has run.<br />For black hats: In this talk, you will learn how to write an automated tool that gets that website's content after Javascript has run and how to hide your IP while getting that content without touching your machine's internet connection.<br /> For white hats: In this talk, you will learn how to write an automated tool to test your website's content after Javascript has run as someone coming from outside your network (e.g. a customer) without touching your machine's internet connection.</p>",
         ],
         'getting_started_with_android_development' => [
             'title' => 'Getting started with Android Development',
