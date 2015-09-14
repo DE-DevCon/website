@@ -60,4 +60,11 @@ return function(\Slim\Slim $app, array $options) {
             $app->render('survey.html', ['page' => 'survey'] + $options);
         })->name("{$options['year']}-survey");
     }
+
+    if (isset($options['uncon'])) {
+        $options['logo'] = 'http://cdn0.traderonline.com/v1/media/de-dev-un-con.png';
+        $app->get('/uncon', function() use($app, $options) {
+            $app->render('uncon.html', ['page' => 'uncon'] + $options);
+        })->name("{$options['year']}-uncon");
+    }
 };
