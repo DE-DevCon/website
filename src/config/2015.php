@@ -200,9 +200,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => ' You should write tests for your portable, well-written CLI applications too, right? Right! I\'ll talk about PHP CLI apps.',
         ],
         'automated_docker' => [
-            'title' => 'Automated Docker',
+            'title' => 'Automated Deployment with Docker and Git',
             'presenters' => ['joe_legeckis'],
-            'description' => ' Automated Docker container building, testing, and deployment in large scale production environments.',
+            'description' => "At ForRent, we've developed a completely automated process for deploying code to multiple environments for multiple code bases using Git and Docker. In this talk, I'll describe a brief history of the evolution of the deployment process, walk through how Docker helps our large development team deploy code to our 12 dev, beta and production environments with no systems interaction and most importantly, no downtime. We'll discuss the benefits Docker gives us in this setup, and how the system provides feedback to the teams at all steps.",
         ],
         'getting_started_with_chef' => [
             'title' => 'Getting started with Chef',
