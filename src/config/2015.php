@@ -91,7 +91,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'steve_jones' => [
             'name' => 'Steve Jones',
-            'description' => null,
+            'description' => 'Steve joined Dominion Enterprises and For Rent Media Solutions as a Systems Administrator in 2007 and was promoted to  Senior Systems Administrator in 2011. Seeking new data-driven challenges, he joined the Dominion Business Solutions Technology group in 2013, focusing primarily on ETL (SSIS) development on the DX1 project. While he has worn several hats throughout his career, his passions lie in architecture, big data, infrastructure, and analytics. In May, 2014, he transitioned back to For Rent as Data Architect. A Hampton Roads native, Steve enjoys ocean kayaking, riding his motorcycle, and performing with his band.',
             'twitter' => null,
         ],
         'alfredo_liu_perez' => [
@@ -230,9 +230,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             <p>Most of the "creating" topics will be covered by live coding examples. We will build some sort of application.</p>',
         ],
         'event_streaming' => [
-            'title' => 'Event Streaming',
+            'title' => 'Streaming Analytics and Lambda Architecture with Kafka and Spark in the Hybrid Cloud',
             'presenters' => ['steve_jones'],
-            'description' => ' Near real-time event streaming at ForRent',
+            'description' => 'I will be exploring a data-processing workflow pattern known as Lambda Architecture, which demonstrates how to combine data-in-motion with traditional batch processing.',
         ],
         'dynamic_javascript_content' => [
             'title' => 'How to Use Python to Get Javascript-generated Content and Secretly Spy on Your competition, or Something Nicer Than That.',
