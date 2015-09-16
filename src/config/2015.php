@@ -195,9 +195,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'Refactoring is one of the most important skills for a developer to have. We will discuss what refactoring is and rules to help make it easier. Some real examples will be reviewed along with thoughts about why the code should be factored with the results. While challenging refactoring code can be fun and improve code significantly.',
         ],
         'cli_applications' => [
-            'title' => 'CLI Applications',
+            'title' => 'Building Better CLI Tools',
             'presenters' => ['guillermo_fisher'],
-            'description' => ' You should write tests for your portable, well-written CLI applications too, right? Right! I\'ll talk about PHP CLI apps.',
+            'description' => "CLI tools play an important role in the day-to-day lives of developers. They help us automate tasks, manage packages, and interact with APIs. We'll discuss some of the things you should consider when writing a CLI tool.",
         ],
         'automated_docker' => [
             'title' => 'Automated Deployment with Docker and Git',
