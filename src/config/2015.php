@@ -255,6 +255,8 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'Does the Narwhal have a name?' => 'The Narwhal\'s name is Norman T Narwhal.',
     ],
     'uncon' => [
-        '2015-10-08 10:00' => 'What is DE Labs? Find out in this 15 minute talk',
+        '2015-10-08 10:15' => 'The PHP Util Library. What is it? How Do I Use It?',
+        '2015-10-08 11:15' => 'The PHP Filter Library. What is it? How Do I Use It?',
+        '2015-10-08 01:15' => 'The PHP Mongo Queue Library. What is it? How Do I Use It?',
     ],
 ];
