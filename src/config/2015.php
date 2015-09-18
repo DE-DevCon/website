@@ -81,7 +81,8 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'algimantas_krasauskas' => [
             'name' => 'Algimantas Krasauskas',
-            'description' => null,
+            'description' => 'Algimantas is a young developer that is interested in linguistics of the code. From the roles he had he touch languages like: Javascript, CoffeeScript, TypeScript, Dart, Java, Scala, C#, Python, PHP, HTML, Rust, Haskell(just to learn to write pure code) he has learned a lot of good and bad ways of doing stuff. He gives preference for functional implementation vs imperative, has a strong opinion about immutability and loose coupling.
+            Life Credo - "Seek first to understand then to be understood"',
             'twitter' => null,
         ],
         'heath_padrick' => [
@@ -255,6 +256,8 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'Does the Narwhal have a name?' => 'The Narwhal\'s name is Norman T Narwhal.',
     ],
     'uncon' => [
-        '2015-10-08 10:00' => 'What is DE Labs? Find out in this 15 minute talk',
+        '2015-10-08 10:15' => 'The PHP Util Library. What is it? How Do I Use It?',
+        '2015-10-08 11:15' => 'The PHP Filter Library. What is it? How Do I Use It?',
+        '2015-10-08 01:15' => 'The PHP Mongo Queue Library. What is it? How Do I Use It?',
     ],
 ];
