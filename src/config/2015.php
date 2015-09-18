@@ -81,7 +81,8 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'algimantas_krasauskas' => [
             'name' => 'Algimantas Krasauskas',
-            'description' => null,
+            'description' => 'Algimantas is a young developer that is interested in linguistics of the code. From the roles he had he touch languages like: Javascript, CoffeeScript, TypeScript, Dart, Java, Scala, C#, Python, PHP, HTML, Rust, Haskell(just to learn to write pure code) he has learned a lot of good and bad ways of doing stuff. He gives preference for functional implementation vs imperative, has a strong opinion about immutability and loose coupling.
+            Life Credo - "Seek first to understand then to be understood"',
             'twitter' => null,
         ],
         'heath_padrick' => [
