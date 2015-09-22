@@ -25,7 +25,7 @@ return [
         ],
         'alena_devan' => [
             'name' => 'Alena Devan',
-            'description' => null,
+            'description' => 'Alena Devan joined the TraderOnline architecture group in May 2015 as a data engineer. She is currently working on a R&D project to develop a business intelligence data platform.',
             'twitter' => null,
         ],
         'kelley_howell' => [
@@ -160,7 +160,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'visualizing_data' => [
             'title' => 'Visualizing Data',
             'presenters' => ['alena_devan'],
-            'description' => ' The growing amount of data being collected and analyzed requires innovative data platform solutions. In this talk I will review some of the available technologies to store, manipulate, and visualize data.',
+            'description' => 'The growing amount of data being collected and analyzed requires innovative data platform solutions. In this talk I will review some of the available technologies to store, manipulate, and visualize data. Primarily, I will focus on utilizing Elasticsearch and Kibana as a data platform with an emphasis on configuring and operating the cluster.',
         ],
         'what_is_data_science' => [
             'title' => 'What is Data Science',
