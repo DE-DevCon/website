@@ -20,7 +20,7 @@ return [
         ],
         'josiah_baker' => [
             'name' => 'Josiah Baker',
-            'description' => 'Also known as J.J. Stats.',
+            'description' => 'Also known as JJ Stats.',
             'twitter' => null,
         ],
         'alena_devan' => [
