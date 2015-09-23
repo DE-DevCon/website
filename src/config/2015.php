@@ -71,7 +71,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'joe_legeckis' => [
             'name' => 'Joe Legeckis',
-            'description' => null,
+            'description' => "Many programming languages, operating systems and years after receiving a Commodore 128 in 1986, Old Dominion University Computer Science graduate Joe Legeckis arrived on board in February of 2009 as a Linux Systems Administrator for ForRent.com and Resite/ResidentSource. A bit more than 6 years later, he's currently Lead Systems Admin and works everyday to keep all of the FRMS sites and development environments running at their best. This currently involves managing just over 500 VM's across multiple data centers running a mix of CentOS, Ubuntu, and various Windows versions along with a multitude of different application stacks.<br />He's a Chicago native, but has lived here in Hampton Roads since 1999. He also enjoys photography, woodworking, traveling, and spending time with his wife and 5 year old daughter.",
             'twitter' => null,
         ],
         'robert_bittle' => [
