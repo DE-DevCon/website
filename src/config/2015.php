@@ -208,7 +208,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'getting_started_with_chef' => [
             'title' => 'Getting started with Chef',
             'presenters' => ['robert_bittle'],
-            'description' => ' Chef makes it easy to manage a large number of servers without having a lot of manual actions.  From code deployment to software updates, Chef takes the pain out of scaling up your infrastructure.  In this talk we\'ll cover the basics of getting Chef installed as well where to find and how to set up all the  components you\'ll need to get going.',
+            'description' => ' Chef makes it easy to manage a large number of servers without having a lot of manual actions.  From code deployment to software updates, Chef takes the pain out of scaling up your infrastructure.  In this talk we\'ll cover the basics of getting Chef installed as well as where to find the components you\'ll need to get going and how to set it all up.',
         ],
         'side_effects_in_languages' => [
             'title' => 'Side-effects in Languages',
