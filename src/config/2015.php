@@ -35,7 +35,7 @@ return [
         ],
         'lucien_frelin' => [
             'name' => 'Lucien Frelin',
-            'description' => null,
+            'description' => 'Lead UI Developer for TOL Recreation Group. Been with Dominion for 8+ years',
             'twitter' => null,
         ],
         'randolf_julian' => [
