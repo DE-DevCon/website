@@ -30,7 +30,7 @@ return [
         ],
         'kelley_howell' => [
             'name' => 'Kelley Howell',
-            'description' => 'Kelly Howell is UX Research Manager at Homes.com. She has been working in the field of User Experience and User Interface development since 1996 when she helped build one of the first online learning courses at her university. In the process, she was introduced to the wild, wild world of Web development, user experience research, and interaction desgin.',
+            'description' => "Kelley started out as a researcher and educator at Syracuse University, but fell in love with the Internet after building one of the university's first online courses.<br />She's performed engineering, product design, and UX research roles in many settings: academia, information security,  online training, ecommerce, tax preparation platforms, CMSs, and mobile search.<br />Kelley came to Dominion in 2007 as a Sr UI Engineer and Team Lead for Trader Operations. In 2011, she moved into a role as UX Manager with Dominion Marine Media. In 2013, she was hired to lead the first UX Research team at Homes.com<br />The UX Research team conducts tactical and strategic user research, using both qualitative and quantitative methods. The team advocates for the user, introduces data-driven insights into the product design process, and raises the organization's UX maturity level.<br />Kelley's plan for world domination: To make sure that everyone, across the organization, is focused on empowering users to achieve their goals with an awesome suite of Homes.com products.";
             'twitter' => null,
         ],
         'lucien_frelin' => [
@@ -177,9 +177,10 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => ' A high level discussion of what Data Science is and how it applies to the Web Advertising industry.  Would include brief history, notable examples in other industries, and examples of how it is being used today here at Dominion Enterprises.',
         ],
         'making_bad_ass_users_' => [
-            'title' => 'Making Bad@$$ Users.',
+            'title' => 'Stop creating great user experiences!',
             'presenters' => ['kelley_howell'],
-            'description' => ' This talk will show IT and product teams how to design their applications for mastery. Everyone talk about designing for emotion or designing for delight. But those are concepts that are either too broad or too superficial. What we really want to do is design for mastery - or, turn our users into Bad Ass Users.',
+            'description' => 'Everyone says we can edge out the competition by building products that have great user experiences. But this framework for defining, building,and evaluating a "a good user experience has limitations, especially for the types of products we build at DE.<br />'
+            . "In this talk, you'll learn why great user experiences are not a property a product, an app, a portal. Instead, a great user experience is what happens when we focus on empowering users who are, as Kathy Sierra says, bad@$$ at achieving their goals. Empower your users and you'll never have to settle for satisfied users; instead, you'll be creating loyal fans who promote your product and your brand.",
         ],
         'good_design_is_good_for_business_' => [
             'title' => 'Good Design is Good for Business.',
