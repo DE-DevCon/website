@@ -105,6 +105,10 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => "Jose Mateo is the Android Developer for Dominion Web Solutions' recreational brands and has been with the company since July 2014. During his short time with DWS, Android apps for the business have seen a drastic increase in ratings and positive user feedback. With over 50,000 downloads, the Cycle Trader app is in the top 500 in the Play Store for Lifestyle apps. Jose is also the founder of Rocket Science, a startup that has helped other start ups build their mobile apps  and websites in a cost efficient way.",
             'twitter' => null,
         ],
+        'phillip_billups' => [
+            'name' => 'Phillip Billups',
+            'description' => 'Vice President of Product for TOL Recreation Brands',
+        ],
     ],
     'schedule' => [
         '2013-12-13 08:30' => 'Coffee/Opening remarks',
