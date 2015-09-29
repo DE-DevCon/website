@@ -146,11 +146,6 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
     ],
     'topics' => [
-        'tol_to_the_cloud' => [
-            'title' => "TOL's Slow March to the Cloud.",
-            'presenters' => ['chris_ryan', 'brandon_beigay', 'robert_bittle', 'phillip_billups'],
-            'description' => 'A retrospective look at some of the goals, challenges, successes and failures of moving our code bases from fixed server farms in DESQ to scaleable cloud services.',
-        ],
         'preventing_burnout' => [
             'title' => 'Preventing Burnout',
             'presenters' => ['marius_de_beer'],
@@ -254,6 +249,11 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'title' => 'Getting Started with Android Development',
             'presenters' => ['jose_mateo'],
             'description' => "Learn how to develop for the world's most popular smartphone platform. You'll get hands-on experience developing a native Android app that will employ some  of the major components available in the framework. This talk is ideal for anyone new to the platform who needs an efficient way to get up to speed quickly.<br /> You'll become familiar with the following topics:<br /> <ul> <li>Creating Activites to control the UI</li> <li>Using the RecyclerView to efficiently load unlimited amounts of content.</li> <li>Consuming RESTful API's using open source libraries</li> <li>Efficiently displaying images on the UI</li> <li>Handling user interaction</li></ul>",
+        ],
+        'tol_to_the_cloud' => [
+            'title' => "TOL's Slow March to the Cloud.",
+            'presenters' => ['chris_ryan', 'brandon_beigay', 'robert_bittle', 'phillip_billups'],
+            'description' => 'A retrospective look at some of the goals, challenges, successes and failures of moving our code bases from fixed server farms in DESQ to scaleable cloud services.',
         ],
     ],
     'faq' => [
