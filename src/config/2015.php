@@ -135,17 +135,22 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'room3' => 'dynamic_javascript_content',
         ],
         '2015-10-08 15:00' => [
-            'room1' => 'automated_docker',
+            'room1' => 'getting_started_with_chef',
             'room2' => 'making_bad_ass_users_',
             'room3' => 'getting_started_with_android_development',
         ],
         '2015-10-08 16:00' => [
-            'room1' => 'getting_started_with_chef',
-            'room2' => 'good_design_is_good_for_business_',
-            'room3' => null,
+            'room1' => 'automated_docker',
+            'room2' => 'tol_to_the_cloud',
+            'room3' => 'good_design_is_good_for_business_',
         ],
     ],
     'topics' => [
+        'tol_to_the_cloud' => [
+            'title' => "TOL's Slow March to the Cloud.",
+            'presenters' => ['chris_ryan', 'brandon_beigay', 'robert_bittle', 'phillip_billups'],
+            'description' => 'A retrospective look at some of the goals, challenges, successes and failures of moving our code bases from fixed server farms in DESQ to scaleable cloud services.',
+        ],
         'preventing_burnout' => [
             'title' => 'Preventing Burnout',
             'presenters' => ['marius_de_beer'],
