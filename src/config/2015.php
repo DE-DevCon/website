@@ -174,7 +174,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'making_bad_ass_users_' => [
             'title' => 'Stop creating great user experiences!',
             'presenters' => ['kelley_howell'],
-            'description' => 'Everyone says we can edge out the competition by building products that have great user experiences. But this framework for defining, building,and evaluating a "a good user experience has limitations, especially for the types of products we build at DE.</p>'
+            'description' => 'Everyone says we can edge out the competition by building products that have great user experiences. But this framework for defining, building,and evaluating the user experience has limitations, especially for the types of products we build at DE.</p>'
             . "<p>In this talk, you'll learn why great user experiences are not a property a product, an app, a portal. Instead, a great user experience is what happens when we focus on empowering users who are, as Kathy Sierra says, bad@$$ at achieving their goals. Empower your users and you'll never have to settle for satisfied users; instead, you'll be creating loyal fans who promote your product and your brand.",
         ],
         'good_design_is_good_for_business_' => [
