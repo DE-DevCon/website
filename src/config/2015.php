@@ -109,6 +109,10 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'name' => 'Phillip Billups',
             'description' => 'Vice President of Product for TOL Recreation Brands',
         ],
+        'ryan_goodwin' => [
+            'name' => 'Ryan Goodwin',
+            'description' => 'Ryan started programming in QBasic when he was 13 years old.  From there he graduated with a BS in CS from Lynchburg College just as the tech bubble burst, sending Ryan to start with Trader Publishing Company as a junior programmer for TraderOnline.  In that time he\'s worked on a variety of projects, including eCommerce, business intelligence, search engines, and inventory management.  He is an open source advocate and a member of the Electron Frontier Foundation, believing in an individual\'s right to privacy online and at home.',
+        ],
     ],
     'schedule' => [
         '2013-12-13 08:30' => 'Coffee/Opening remarks',
