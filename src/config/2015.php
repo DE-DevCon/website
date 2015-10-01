@@ -115,8 +115,8 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
     ],
     'schedule' => [
-        '2013-12-13 08:30' => 'Coffee/Opening remarks',
-        '2015-10-08 09:00' => '<h4><a href="/2015/topics#preventing_burnout">Preventing Burnout</a></h4><h5><a href="/2015/people#marius_de_beer">Marius de Beer</a></h5>',
+        '2013-12-13 08:30' => 'Coffee/Opening remarks<br />(York Room)',
+        '2015-10-08 09:00' => '<h4><a href="/2015/topics#preventing_burnout">Preventing Burnout</a><br />(York Room)</h4><h5><a href="/2015/people#marius_de_beer">Marius de Beer</a></h5>',
         '2015-10-08 10:00' => [
             'room1' => 'fine_tuning_sql_statements',
             'room2' => 'information_radiators',
@@ -240,12 +240,12 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             <p>Most of the "creating" topics will be covered by live coding examples. We will build some sort of application.</p>',
         ],
         'event_streaming' => [
-            'title' => 'Streaming Analytics and Lambda Architecture with Kafka and Spark in the Hybrid Cloud',
+            'title' => 'Streaming Analytics and<br />Lambda Architecture<br />with Kafka and Spark in the Hybrid Cloud',
             'presenters' => ['steve_jones'],
             'description' => 'I will be exploring a data-processing workflow pattern known as Lambda Architecture, which demonstrates how to combine data-in-motion with traditional batch processing.',
         ],
         'dynamic_javascript_content' => [
-            'title' => 'How to Use Python to Get Javascript-generated Content and Secretly Spy on Your competition, or Something Nicer Than That.',
+            'title' => 'How to Use Python to Get<br />Javascript-generated Content and <br />Secretly Spy on Your competition,<br />or Something Nicer Than That.',
             'presenters' => ['alfredo_liu_perez'],
             'description' => "Without a Javascript interpreter we only get the source code of a website and not how it looks after Javascript has run.<br />For black hats: In this talk, you will learn how to write an automated tool that gets that website's content after Javascript has run and how to hide your IP while getting that content without touching your machine's internet connection.<br /> For white hats: In this talk, you will learn how to write an automated tool to test your website's content after Javascript has run as someone coming from outside your network (e.g. a customer) without touching your machine's internet connection.</p>",
         ],
