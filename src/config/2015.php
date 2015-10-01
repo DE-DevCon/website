@@ -109,6 +109,10 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'name' => 'Phillip Billups',
             'description' => 'Vice President of Product for TOL Recreation Brands',
         ],
+        'ryan_goodwin' => [
+            'name' => 'Ryan Goodwin',
+            'description' => 'Ryan started programming in QBasic when he was 13 years old.  From there he graduated with a BS in CS from Lynchburg College just as the tech bubble burst, sending Ryan to start with Trader Publishing Company as a junior programmer for TraderOnline.  In that time he\'s worked on a variety of projects, including eCommerce, business intelligence, search engines, and inventory management.  He is an open source advocate and a member of the Electron Frontier Foundation, believing in an individual\'s right to privacy online and at home.',
+        ],
     ],
     'schedule' => [
         '2013-12-13 08:30' => 'Coffee/Opening remarks',
@@ -179,7 +183,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'good_design_is_good_for_business_' => [
             'title' => 'Good Design is Good for Business.',
-            'presenters' => ['lucien_frelin'],
+            'presenters' => ['lucien_frelin', 'phillip_billups'],
             'description' => ' Design is the not only the polish on a graphic. It is quickly becoming the factor that leads innovation.  Design in so many industries today is the defining advantage and concurrently a tool used to fend off competitors and create a owned differentiation.',
         ],
         'fine_tuning_sql_statements' =>
@@ -252,7 +256,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'tol_to_the_cloud' => [
             'title' => "TOL's Slow March to the Cloud.",
-            'presenters' => ['chris_ryan', 'brandon_beigay', 'robert_bittle', 'phillip_billups'],
+            'presenters' => ['ryan_goodwin', 'chris_ryan', 'brandon_beigay', 'robert_bittle'],
             'description' => 'A retrospective look at some of the goals, challenges, successes and failures of moving our code bases from fixed server farms in DESQ to scaleable cloud services.',
         ],
     ],
