@@ -256,7 +256,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'tol_to_the_cloud' => [
             'title' => "TOL's Slow March to the Cloud.",
-            'presenters' => ['chris_ryan', 'brandon_beigay', 'robert_bittle'],
+            'presenters' => ['ryan_goodwin', 'chris_ryan', 'brandon_beigay', 'robert_bittle'],
             'description' => 'A retrospective look at some of the goals, challenges, successes and failures of moving our code bases from fixed server farms in DESQ to scaleable cloud services.',
         ],
     ],
