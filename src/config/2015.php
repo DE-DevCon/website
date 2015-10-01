@@ -35,7 +35,7 @@ return [
         ],
         'lucien_frelin' => [
             'name' => 'Lucien Frelin',
-            'description' => 'Lead UI Developer for TOL Recreation Group. Been with Dominion for 8+ years',
+            'description' => 'Lucien is a Virginia native that calls Norfolk home with over 10 years experience in the web and a degree in Graphic Design from Old Dominion University. By day Lucien is the Lead UI Developer for CycleTrader.com. By night he can be found working on any number of side projects or business endeavors usually involving craft beer or bicycles.',
             'twitter' => null,
         ],
         'randolf_julian' => [
