@@ -20,7 +20,7 @@ return [
         ],
         'josiah_baker' => [
             'name' => 'Josiah Baker',
-            'description' => 'Also known as JJ Stats.',
+            'description' => 'Josiah is a recent transplant from the Midwest to Norfolk, joining Dominion Enterprises in April as a Data Scientist.  Josiah enjoys problem solving of any kind, so naturally a career in solving problems with data and math seemed like a no brainer.  Josiah also enjoys a good burger and beer, playing music, and being outside.',
             'twitter' => null,
         ],
         'alena_devan' => [
@@ -163,7 +163,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'ad_features_analysis_using_multivariable_regression' => [
             'title' => 'Ad Features Analysis using Multivariable Regression',
             'presenters' => ['josiah_baker'],
-            'description' => ' A pretty in depth description of how historic ad activity can be used to create a regression model which would then be able to answer questions like "How do photos increase my clicks/leads compared to ads without photos," or "What is the impact of making my ad a featured or premium ad."  Details on how the model is built and then how it works to predict clicks and leads on new ads.',
+            'description' => 'In this talk, I will be breaking down a recent project aimed at predicting clicks on ads based on ad features.</p><p>What data and why:  A discussion of how the data was collected and why that data was chosen.</p><p>What model and how:  An explanation of what a Regression model is and how it enables the prediction of future activity based on historic data.</p><p>What next:  Summary thoughts on how the project can be improved and implemented for future use.',
         ],
         'visualizing_data' => [
             'title' => 'Visualizing Data',
@@ -173,7 +173,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'what_is_data_science' => [
             'title' => 'What is Data Science',
             'presenters' => ['josiah_baker'],
-            'description' => ' A high level discussion of what Data Science is and how it applies to the Web Advertising industry.  Would include brief history, notable examples in other industries, and examples of how it is being used today here at Dominion Enterprises.',
+            'description' => 'Everyone is familiar with the term Data Scientist, but what is it actually all about?  Where and when did it start?  This talk will start with a bit of a history lesson on the evolution of Data Science and end with a high level view of what being a Data Scientist looks like day to day.',
         ],
         'making_bad_ass_users_' => [
             'title' => 'Stop creating great user experiences!',
