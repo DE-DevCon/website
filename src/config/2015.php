@@ -220,9 +220,26 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => ' Chef makes it easy to manage a large number of servers without having a lot of manual actions.  From code deployment to software updates, Chef takes the pain out of scaling up your infrastructure.  In this talk we\'ll cover the basics of getting Chef installed as well as where to find the components you\'ll need to get going and how to set it all up.',
         ],
         'side_effects_in_languages' => [
-            'title' => 'Side-effects in Languages',
+            'title' => 'Sensible Side-Effects',
             'presenters' => ['algimantas_krasauskas'],
-            'description' => ' I would love to tack of side-effects in languages like Javascript, when is it OK to use them when not.  My talk would mainly focus, the habit\'s while working with systems like Javascript, suggested patterns and focus on immutability.',
+            'description' => trim('
+As developers we tackle deeply coupled code every day. We eat TDD for breakfast and crunch recursion for lunch. There are no excuses for writing unmaintainable code. As developers we need  to understand paradigm of the language and patterns of the code.</p>
+
+<p>One of the emerging paradigms is immutability in the  code.</p>
+<ul>
+<li>Why is it so important?</li>
+<li>What are languages like Haskell/Rust/Scala doing about it?</li>
+<li>How can we use concepts from these languages to make Javascript an easily maintainable codebase?  </li>
+</ul>
+<p>Only prerequisite is basic Javascript knowledge.</p>
+
+<p>What this talk is NOT about:</p>
+<ul>
+<li>Creation of "Category Theory" implementation using Javascript (although I will give an example of library  that did that).</li>
+<li>Lambda course (Sadly there will be not be enough time)</li>
+<li>Reactive Programming presentation (although I will provide concepts and guidelines where to find your answers on that)</li>
+</ul><p>
+ '),
         ],
         'getting_reactive_with_meteor_js' => [
             'title' => 'Getting reactive with Meteor JS',
