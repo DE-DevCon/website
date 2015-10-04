@@ -21,7 +21,7 @@ return [
         'josiah_baker' => [
             'name' => 'Josiah Baker',
             'description' => 'Josiah is a recent transplant from the Midwest to Norfolk, joining Dominion Enterprises in April as a Data Scientist.  Josiah enjoys problem solving of any kind, so naturally a career in solving problems with data and math seemed like a no brainer.  Josiah also enjoys a good burger and beer, playing music, and being outside.',
-            'twitter' => null,
+            'twitter' => 'josibake',
         ],
         'alena_devan' => [
             'name' => 'Alena Devan',
