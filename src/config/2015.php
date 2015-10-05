@@ -166,7 +166,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'In this talk, I will be breaking down a recent project aimed at predicting clicks on ads based on ad features.</p><p>What data and why:  A discussion of how the data was collected and why that data was chosen.</p><p>What model and how:  An explanation of what a Regression model is and how it enables the prediction of future activity based on historic data.</p><p>What next:  Summary thoughts on how the project can be improved and implemented for future use.',
         ],
         'visualizing_data' => [
-            'title' => 'Visualizing Data',
+            'title' => 'Visualizing Data with Elasticsearch and Kibana',
             'presenters' => ['alena_devan'],
             'description' => 'The growing amount of data being collected and analyzed requires innovative data platform solutions. In this talk I will review some of the available technologies to store, manipulate, and visualize data. Primarily, I will focus on utilizing Elasticsearch and Kibana as a data platform with an emphasis on configuring and operating the cluster.',
         ],
