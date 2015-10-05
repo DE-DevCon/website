@@ -21,7 +21,7 @@ return [
         'josiah_baker' => [
             'name' => 'Josiah Baker',
             'description' => 'Josiah is a recent transplant from the Midwest to Norfolk, joining Dominion Enterprises in April as a Data Scientist.  Josiah enjoys problem solving of any kind, so naturally a career in solving problems with data and math seemed like a no brainer.  Josiah also enjoys a good burger and beer, playing music, and being outside.',
-            'twitter' => null,
+            'twitter' => 'josibake',
         ],
         'alena_devan' => [
             'name' => 'Alena Devan',
@@ -166,7 +166,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'In this talk, I will be breaking down a recent project aimed at predicting clicks on ads based on ad features.</p><p>What data and why:  A discussion of how the data was collected and why that data was chosen.</p><p>What model and how:  An explanation of what a Regression model is and how it enables the prediction of future activity based on historic data.</p><p>What next:  Summary thoughts on how the project can be improved and implemented for future use.',
         ],
         'visualizing_data' => [
-            'title' => 'Visualizing Data',
+            'title' => 'Visualizing Data with Elasticsearch and Kibana',
             'presenters' => ['alena_devan'],
             'description' => 'The growing amount of data being collected and analyzed requires innovative data platform solutions. In this talk I will review some of the available technologies to store, manipulate, and visualize data. Primarily, I will focus on utilizing Elasticsearch and Kibana as a data platform with an emphasis on configuring and operating the cluster.',
         ],
@@ -220,9 +220,26 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => ' Chef makes it easy to manage a large number of servers without having a lot of manual actions.  From code deployment to software updates, Chef takes the pain out of scaling up your infrastructure.  In this talk we\'ll cover the basics of getting Chef installed as well as where to find the components you\'ll need to get going and how to set it all up.',
         ],
         'side_effects_in_languages' => [
-            'title' => 'Side-effects in Languages',
+            'title' => 'Sensible Side-Effects',
             'presenters' => ['algimantas_krasauskas'],
-            'description' => ' I would love to tack of side-effects in languages like Javascript, when is it OK to use them when not.  My talk would mainly focus, the habit\'s while working with systems like Javascript, suggested patterns and focus on immutability.',
+            'description' => trim('
+As developers we tackle deeply coupled code every day. We eat TDD for breakfast and crunch recursion for lunch. There are no excuses for writing unmaintainable code. As developers we need  to understand paradigm of the language and patterns of the code.</p>
+
+<p>One of the emerging paradigms is immutability in the  code.</p>
+<ul>
+<li>Why is it so important?</li>
+<li>What are languages like Haskell/Rust/Scala doing about it?</li>
+<li>How can we use concepts from these languages to make Javascript an easily maintainable codebase?  </li>
+</ul>
+<p>Only prerequisite is basic Javascript knowledge.</p>
+
+<p>What this talk is NOT about:</p>
+<ul>
+<li>Creation of "Category Theory" implementation using Javascript (although I will give an example of library  that did that).</li>
+<li>Lambda course (Sadly there will be not be enough time)</li>
+<li>Reactive Programming presentation (although I will provide concepts and guidelines where to find your answers on that)</li>
+</ul><p>
+ '),
         ],
         'getting_reactive_with_meteor_js' => [
             'title' => 'Getting reactive with Meteor JS',
