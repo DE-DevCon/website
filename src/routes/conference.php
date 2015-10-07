@@ -57,7 +57,7 @@ return function(\Slim\Slim $app, array $options) {
 
     if (isset($options['survey'])) {
         $app->get('/survey', function() use($app, $options) {
-            $app->render('survey.html', ['page' => 'survey'] + $options);
+            $app->redirect($options['survey']);
         })->name("{$options['year']}-survey");
     }
 
