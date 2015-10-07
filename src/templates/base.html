@@ -32,6 +32,10 @@
         {% if uncon %}
           <li {% if page == "uncon" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-uncon") }}">UnCon</a></li>
         {% endif %}
+        {% if survey %}
+          <li {% if page == "survey" %} class="active" {% endif %}><a href="{{ urlFor("#{year}-survey") }}">Survey</a></li>
+        {% endif %}
+
       </ul>
     </nav>
     <div class="container">

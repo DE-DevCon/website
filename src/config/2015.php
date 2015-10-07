@@ -5,6 +5,7 @@ return [
     'home' => [
         'news' => [
             'DE DevCon III is Thursday, October 8th! The full <a href="/2015/schedule">schedule</a> is online now!',
+            'Don\'t Forget to take the attendee <a href="/2015/survey">survey</a>!',
         ],
     ],
     'people' => [
@@ -291,4 +292,5 @@ As developers we tackle deeply coupled code every day. We eat TDD for breakfast 
         '2015-10-08 11:15' => 'The PHP Filter Library. What is it? How Do I Use It?',
         '2015-10-08 01:15' => 'The PHP Mongo Queue Library. What is it? How Do I Use It?',
     ],
+    'survey' => 'https://docs.google.com/a/dominionenterprises.com/forms/d/10g6DqZbRJOh1s2ZRF8xKdtL5AVUtrQoEtmAxbi9q-GU/viewform',
 ];
