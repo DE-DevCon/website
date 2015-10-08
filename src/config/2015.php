@@ -146,8 +146,8 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         '2015-10-08 16:00' => [
             'room1' => 'automated_docker',
-            'room2' => 'tol_to_the_cloud',
-            'room3' => 'good_design_is_good_for_business_',
+            'room2' => 'good_design_is_good_for_business_',
+            'room3' => 'tol_to_the_cloud',
         ],
     ],
     'topics' => [
