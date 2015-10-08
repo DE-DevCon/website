@@ -288,7 +288,7 @@ As developers we tackle deeply coupled code every day. We eat TDD for breakfast 
         'Does the Narwhal have a name?' => 'The Narwhal\'s name is Norman T Narwhal.',
     ],
     'uncon' => [
-        '2015-10-08 10:15' => 'The PHP Util Library. What is it? How Do I Use It?',
+        '2015-10-08 10:15' => 'What is Open DE?',
     ],
     'survey' => 'https://docs.google.com/a/dominionenterprises.com/forms/d/10g6DqZbRJOh1s2ZRF8xKdtL5AVUtrQoEtmAxbi9q-GU/viewform',
 ];
