@@ -12,13 +12,23 @@ return function(\Slim\Slim $app, array $options) {
         $app->post('/cfp', function() use($app, $options) {
             $req = $app->request();
             try {
+                $packet = [
+                    'name' => $req->post('name'),
+                    'email' => $req->post('email'),
+                    'summary' => $req->post('summary'),
+                    'type' => $req->post('type'),
+                ];
+
+                //adding json so i can easily cut an paste into our "database"
+                $json = json_encode($packet);
+
                 $app->mailgun->sendMessage(
                     $app->mailgunDomain,
                     [
                         'from' => "{$req->post('name')} <{$req->post('email')}>",
                         'to' => $app->cfpEmail,
                         'subject' => 'Call For Papers',
-                        'text' => "{$req->post('size')}\n\n{$req->post('summary')}",
+                        'text' => "{$req->post('type')}\n\n{$req->post('summary')}\n\n{$json}",
                     ]
                 );
 

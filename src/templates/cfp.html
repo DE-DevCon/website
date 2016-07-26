@@ -3,9 +3,8 @@
 {% block content %}
 <div class="jumbotron jumbotron-home text-left">
     <center>
-        <h1>DE DevCon Call for Papers</h1>
-        <h2>Get your proposals in by <strike>AUGUST 28TH, 2015</strike></h2>
-        <h2>Deadline extended to {{ callForPapers.due|date('F jS, Y') }}!</h2>
+        <h1>Call for Papers</h1>
+        <h2>Get your proposals in by {{ callForPapers.due|date('F jS, Y') }}!</h2>
     </center>
   <hr />
   <form class="bs-example form-horizontal" method="post">
@@ -23,40 +22,53 @@
         </div>
       </div>
       <div class="form-group">
-        <label class="col-lg-2 control-label" for="cfpSize">T-Shirt Size*</label>
+        <label class="col-lg-2 control-label" for="cfpType">Talk Type</label>
         <div class="col-lg-10">
-          <select id="cfpSize" name="size" class="form-control">
-            <option value="S">Small</option>
-            <option value="M">Medium</option>
-            <option value="L" selected="selected">Large</option>
-            <option value="XL">X-Large</option>
-            <option value="2XL">2X-Large</option>
-            <option value="3XL">3X-Large</option>
+          <select id="cfpType" name="type" class="form-control">
+            <option value=''>--SELECT TYPE--</option>
+            <option value="tutorial">Tutorial</option>
+            <option value="session">Regular Talk</option>
+            <option value="short">Short Talk</option>
           </select>
         </div>
       </div>
       <div class="form-group">
         <label class="col-lg-2 control-label" for="cfpSummary">Summary</label>
         <div class="col-lg-10">
-          <textarea id="cfpSummary" rows="3" class="form-control" placeholder="A brief overview of what materials will be covered." name="summary"></textarea>
+          <textarea id="cfpSummary" rows="3" class="form-control" placeholder="An overview of what materials will be covered and what attendees should expect to learn." name="summary"></textarea>
         </div>
       </div>
       <div class="form-group">
         <div class="col-lg-10 col-lg-offset-2">
-          <button class="btn btn-primary" type="submit">Submit Proposal</button> 
+          <button class="btn btn-primary" type="submit">Submit Proposal</button>
         </div>
       </div>
     </fieldset>
   </form>
   <hr />
-  <h2>What we're looking for</h2>
-  <p>We are looking for a variety of talks on work-related subjects. Talks should be 50 minutes in length. We want a wide variety of topics, including but not limited to DevOps, Big Data, and Agile Development.</p>
-  <h2>What to expect</h2>
+
+    <p>Welcome to the DE DevCon Call for Papers!  The CFP will close on {{ callForPapers.due|date('F jS, Y h:i:s A') }} EST.  Please make sure that you get your submissions in before that time!  No extensions will be granted.</p>
+
+    <h3>What We Look For</h3>
+    <p>We are looking for a variety of talks on work-related subjects. Talks should be 50 minutes in length. We want a wide variety of topics, including but not limited to DevOps, Big Data, and Agile Development.</p>
+  <h3>What to expect</h3>
   <p>When the Call for Papers closes, the organizers will sort through the submissions, making their selections. Speakers will be notified no later than {{ callForPapers.selection|date('F jS, Y') }}. The goal is to give our speakers at least a month to prepare their presentations.</p>
   <hr />
-  <h2>Tips for submission</h2>
-  <p>We strongly encourage potential speakers to submit more than one submission on more than one topic. The more submissions you contribute, the more options you give us to choose you as a speaker. Be sure your talk title and abstract define the exact topic you want to speak about and what you hope people will learn from the session.</p> 
+    <h3>Suggestions to Get Accepted</h3>
+  <p>We strongly encourage potential speakers to submit more than one submission on more than one topic. The more submissions you contribute, the more options you give us to choose you as a speaker. Be sure your talk title and abstract define the exact topic you want to speak about and what you hope people will learn from the session.</p>
   <hr />
-  <p>* Due to limited supply, only those speakers selected to present will receive a t-shirt.</p>
+
+    <h3>Talk Types</h3>
+    <h4>Tutorials</h4>
+    <p>These will take place on Thursday and are 3 hours long. Attendees here will expect in-depth coverage of a specific topic.</p>
+    <h4>Regular talks</h4>
+    <p>These take place throughout the rest of the conference and are 50 minutes long, including the Q &amp; A.</p>
+    <h4>Short talks</h4>
+    <p>We sometimes leave space on the schedule for short talks are only thirty minutes long. Sometimes there are topics that don’t need a full 50 minutes.  We want to make sure we allow these kinds of topics to be exposed.</p>
+    <h3>Equipment and Setup</h3>
+    <p>Each presenter will be responsible for contacting the 20th floor to ensure their equipment compatiable with the speakers needs.  We will hold a short orientation prior to the conference to ensure
+each presenter knows what is expected.</p>
+    <h3>Speaker Package</h3>
+    <p>If selected you will receive a t-shirt and collectable stuffed narwhal.</p>
 </div>
 {% endblock %}
