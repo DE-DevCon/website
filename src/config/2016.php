@@ -9,8 +9,8 @@ return [
         ],
     ],
     'callForPapers' => [
-        'due' => strtotime('2016/08/29 23:59:59'),
-        'selection' => strtotime('2016/09/02 12:00:00'),
+        'due' => strtotime('2016/09/02 23:59:59'),
+        'selection' => strtotime('2016/09/07 12:00:00'),
     ],
     'people' => [],
     'schedule' => [],
