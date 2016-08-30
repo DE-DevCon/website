@@ -1,79 +1,88 @@
 {% extends "base.html" %}
 {% block title %}Schedule{% endblock %}
 {% block content %}
-<div class="jumbotron jumbotron-home jumbotron-other text-left">
-  <h2>Schedule of Speakers</h2>
-  <hr>
-  <p>All presentations will take place on the 20th floor in the designated rooms. Please verify room and topic in case of any last minute changes.</p>
-  <p>If you are not in the Norfolk building please use the links below to join the presentations remotely. Please "Enter as a Guest" with a recognizable name.</p>
-  <p class="list-group-item-text">
-  <ul>
-    <li>Room 1 York <a href="http://dominionenterprises.adobeconnect.com/devcon1">http://dominionenterprises.adobeconnect.com/devcon1</a></li>
-    <li>Room 2 Lynnhaven <a href="http://dominionenterprises.adobeconnect.com/devcon2">http://dominionenterprises.adobeconnect.com/devcon2</a></li>
-    <li>Room 3 Rappahannock <a href="http://dominionenterprises.adobeconnect.com/devcon3">http://dominionenterprises.adobeconnect.com/devcon3</a></li>
-  </ul>
-  </p>
-  <hr>
-  <table class="table table-striped table-bordered table-hover">
-    <thead>
-      <tr>
-        <th>Time</th>
-        <th>York Room</th>
-        <th>Lynnhaven Room</th>
-        <th>Rappahannock Room</th>
-      </tr>
-    </thead>
-    <tbody>
-    {% for time, slot in schedule %}
-    <tr>
-      <td>{{ time|date('g:ia') }}</td>
-      {% if slot.room1 or slot.room2 or slot.room3 %}
-        {% if slot.room1 %}
-          <td>
-            <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room1}}">{{ topics[slot.room1].title }}</a></h4>
-            <h5>
-              {%- for presenter in topics[slot.room1].presenters -%}
-                {% if loop.last and not loop.first %}&amp; {% endif -%}
-                <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
-                {%- if not loop.last %}, {% endif -%}
-              {%- endfor -%}
-            </h5>
-        {% else %}
-          <td><h4>No Session</h4></td>
-        {% endif %}
-        {% if slot.room2 %}
-          <td>
-            <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room2}}">{{ topics[slot.room2].title }}</a></h4>
-            <h5>
-              {%- for presenter in topics[slot.room2].presenters -%}
-                {% if loop.last and not loop.first %}and {% endif -%}
-                <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
-                {%- if not loop.last %}, {% endif -%}
-              {%- endfor -%}
-            </h5>
-        {% else %}
-          <td><h4>No Session</h4></td>
-        {% endif %}
-        {% if slot.room3 %}
-          <td>
-            <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room3}}">{{ topics[slot.room3].title }}</a></h4>
-            <h5>
-              {%- for presenter in topics[slot.room3].presenters -%}
-                {% if loop.last and not loop.first %}and {% endif -%}
-                <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
-                {%- if not loop.last %}, {% endif -%}
-              {%- endfor -%}
-            </h5>
-        {% else %}
-          <td><h4>No Session</h4></td>
-        {% endif %}
-      {% else %}
-        <td colspan="3"><h4><center>{{ slot }}</center></h4></td>
-      {% endif %}
-      <td>&nbsp;</td>
-    </tr>
-    {% endfor %}
-    </tbody>
-  </table>
-</div>
+    <div class="jumbotron jumbotron-home jumbotron-other text-left">
+        <center><h2>Schedule of Speakers</h2></center>
+        <hr>
+        <p>All presentations will take place on the 20th floor in the designated rooms. Please verify room and topic in case of any last minute changes.</p>
+        <hr>
+        <table class="table table-striped table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th><a href=" http://dominionenterprises.adobeconnect.com/devcon1">York Room</a></th>
+                    <th><a href=" http://dominionenterprises.adobeconnect.com/devcon2">Lynnhaven Room</a></th>
+                    <th><a href=" http://dominionenterprises.adobeconnect.com/devcon3">Rappahannock Room</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for day, list in schedule %}
+                    <td colspan="4"><h3><center>{{ day|date('l F jS') }}</center></h3></td>
+                    {% for time, slot in list %}
+                        <tr>
+                            <td>{{ time|date('g:ia') }}</td>
+                            {% if slot.room1 or slot.room2 or slot.room3 %}
+                                <td>
+                                    {% if slot.room1 %}
+                                        {% if topics[slot.room1] %}
+                                            <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room1}}">{{ topics[slot.room1].title }}</a></h4>
+                                            <h5>
+                                                {%- for presenter in topics[slot.room1].presenters -%}
+                                                    {% if loop.last and not loop.first %}&amp; {% endif -%}
+                                                        <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
+                                                    {%- if not loop.last %}, {% endif -%}
+                                                {%- endfor -%}
+                                            </h5>
+                                        {% else %}
+                                            <center>{{ slot.room1 }}</center>
+                                        {% endif %}
+                                    {% else %}
+                                        <h4>No Session</h4>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if slot.room2 %}
+                                        {% if topics[slot.room2] %}
+                                            <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room2}}">{{ topics[slot.room2].title }}</a></h4>
+                                            <h5>
+                                                {%- for presenter in topics[slot.room2].presenters -%}
+                                                    {% if loop.last and not loop.first %}and {% endif -%}
+                                                        <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
+                                                    {%- if not loop.last %}, {% endif -%}
+                                                {%- endfor -%}
+                                            </h5>
+                                        {% else %}
+                                            <center>{{ slot.room2 }}</center>
+                                        {% endif %}
+                                    {% else %}
+                                        <h4>No Session</h4>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if slot.room3 %}
+                                        {% if topics[slot.room3] %}
+                                            <h4><a href="{{ urlFor("#{year}-topics") }}#{{ slot.room3}}">{{ topics[slot.room3].title }}</a></h4>
+                                            <h5>
+                                                {%- for presenter in topics[slot.room3].presenters -%}
+                                                    {% if loop.last and not loop.first %}and {% endif -%}
+                                                        <a href="{{ urlFor("#{year}-people") }}#{{ presenter }}">{{ people[presenter].name }}</a>
+                                                    {%- if not loop.last %}, {% endif -%}
+                                                {%- endfor -%}
+                                            </h5>
+                                        {% else %}
+                                            <center>{{ slot.room3 }}</center>
+                                        {% endif %}
+                                    {% else %}
+                                        <h4>No Session</h4>
+                                    {% endif %}
+                                </td>
+                            {% else %}
+                                <td colspan="3"><h4><center>{{ slot }}</center></h4></td>
+                            {% endif %}
+                        </tr>
+                    {% endfor %}
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
 {% endblock %}
