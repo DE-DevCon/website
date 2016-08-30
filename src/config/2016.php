@@ -76,9 +76,9 @@ return [
             'description' => '',
             'twitter' => null,
         ],
-        'robert_bittle' => [
-            'name' => 'Robert Bittle',
-            'description' => 'Anthony has always loved computers and has been writing code since he was 12 years old.  While working for Trader Online team for the last 4 years as a PHP developer, he has contributed to 8 award-winning hackathon projects.  In his spare time he enjoys gaming, programming, and solving Rubik\'s cubes.',
+        'anthony_bittle' => [
+            'name' => 'Anthony Bittle',
+            'description' => 'Anthony has always loved computers and has been writing code since he was 12 years old.  While working for Trader Online team for the last 5 years as a PHP developer, he has contributed to 9 award-winning hackathon projects.  In his spare time he enjoys gaming, programming, and solving Rubik\'s cubes.',
             'twitter' => 'guywithnose',
         ],
         'nasia_lee' => [
