@@ -45,7 +45,8 @@ return [
         ],
         'chris_ryan' => [
             'name' => 'Chris Ryan',
-            'description' => 'Chris has been doing software development for over 15 years.  Experience in C, C++, Java, Php, Javascript and several others.  Has worked on both websites and desktop applications with multi-platform support doing network, database, and application development.  Has been active in improving the infrastructure and culture of development processes to better both the individuals and codebases of the Dominion Web Solutions websites.',
+            'description' => 'Chris has been doing software development for over 15 years.  Experience in C, C++, Java, Php, Javascript and several others.  Has worked on both websites and desktop applications with multi-platform support doing network, database, and application development.  Has been active in improving the infrastructure and culture of development processes to better both the individuals and codebases of the Dominion Web Solutions websites. Also enjoys building, crafting, and making cheese.',
+            'twitter' => 'cryancoder',
         ],
         'lucien_frelin' => [
             'name' => 'Lucien Frelin',
