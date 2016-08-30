@@ -13,6 +13,16 @@ return [
         'selection' => strtotime('2016/09/07 12:00:00'),
     ],
     'people' => [
+        'adam_vandover' => [
+            'name' => 'Adam Vandover',
+            'description' => null,
+            'twitter' => null,
+        ],
+        'tabatha_anger' => [
+            'name' => 'Tabatha Anger',
+            'description' => null,
+            'twitter' => null,
+        ],
         'allen_torres' => [
             'name' => 'Allen Torres',
             'description' => '',
@@ -122,8 +132,169 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => '<p>Chante Velez, born and raised in Brooklyn New York, moved to VA in 1994.  I received my Associates Degree in Information Systems from TCC in 1996 took two years off to have my daughter and then graduated from Old Dominion University with an MIS Degree in 2000.</p><p>Began working for Dominion Enterprises (formally known as Trader Publishing Company) in Dec 2000 as a QA Analyst for the Operations Team. I gradually moved from an Analyst; to a DB Programmer; to Systems Business Analyst; to my current position as an IT Project Manager.</p><p>I began using the Agile Development process in the summer of 2011 and became a Certified Scrum Master in May 2013.  I attended the Scrum Alliance Conference in Las Vegas in May 2013 and had the opportunity to actually hear one of the original authors of the Manifesto for Agile Software Development  -- Alistair Cockburn – speak, as well as one of the co-creators of Scrum – Jeff Sutherland.</p><p>I look forward to learning as much as I can about the Agile Development process, as well as all of the tools and practices that go along with Scrum.  I currently use the agile development and Scrum practices in my day to day work routine and it definitely helps my team stay on task.  I would challenge many to give it a try and see how it improves your daily routines.</p>',
         ],
     ],
-    'schedule' => [],
-    'topics' => [],
+    'schedule' => [
+        '2016-10-06' => [
+            '2016-10-06 08:30' => 'Coffee/Opening remarks',
+            '2016-10-06 09:00' => [
+                'room1' => '57c5e408e9f08',
+                'room2' => '57c5e408e9dbc',
+                'room3' => '57c5e408e9d84',
+            ],
+            '2016-10-06 12:00' => 'Break',
+            '2016-10-06 13:30' => [
+                'room1' => '57c5e408e9df3',
+                'room2' => '57c5e408e9d4d',
+                'room3' => '57c5e408e9aXX',
+            ],
+        ],
+        '2016-10-07' => [
+            '2016-10-07 08:30' => 'Coffee/Opening remarks',
+            '2016-10-07 09:00' => 'Keynote TBD',
+            '2016-10-07 10:00' => [
+                'room1' => 'TBD',
+                'room2' => 'TBD',
+                'room3' => 'TBD',
+            ],
+            '2016-10-07 11:00' => [
+                'room1' => 'TBD',
+                'room2' => 'TBD',
+                'room3' => '57c5e408e9ca4',
+            ],
+            '2016-10-06 12:00' => 'Break',
+            '2016-10-07 13:00' => [
+                'room1' => '57c5e408e9cdd',
+                'room2' => 'TBD',
+                'room3' => 'TBD',
+            ],
+            '2016-10-07 14:00' => [
+                'room1' => 'TBD',
+                'room2' => 'TBD',
+                'room3' => 'TBD',
+            ],
+            '2016-10-07 15:00' => [
+                'room1' => 'TBD',
+                'room2' => 'TBD',
+                'room3' => 'TBD',
+            ],
+            '2016-10-07 16:00' => [
+                'room1' => 'TBD',
+                'room2' => 'TBD',
+                'room3' => 'TBD',
+            ],
+        ],
+    ],
+    'topics' => [
+        '57c5e408e9aXX' => [
+            'title' => 'Design Disruptors Viewing',
+            'presenters' => [],
+            'description' => "Design Disruptors is a documentary highlighting the rising importance of design as a competitive advantage in technology. It represents deep conversations with the top product designers and design leaders from today's most significant tech companies.",
+        ],
+        '57c5e408e9ab4' => [
+            'title' => null,
+            'presenters' => ['allen_torres'],
+            'description' => 'I will be discussing how ForRent is using the Elastic Stack. I plan to go over how we use it for logging and searching for apartments. I\'ll speak a little bit about each product (Logstash, Elasticsearch, Beats, and Kibana) and how we\'re using them. This talk is great for DevOps, Software Developers, and Database Developers.',
+        ],
+        '57c5e408e9af3' => [
+            'title' => null,
+            'presenters' => [ 'aliza_shoop' ],
+            'description' => 'Data Visualization - Important things I learned from Stephen Few at the Perceptual Edge conference',
+        ],
+        '57c5e408e9b2c' => [
+            'title' => null,
+            'presenters' => [ 'pamela_jones' ],
+            'description' => 'Agile Manifesto   The Agile Manifesto covers 12 leading principles that can be infused into any project. The importance behind learning the principles are critical to any leader, to any tastemaker, to any pioneer. The continued path of developmental excellence comes with roadblocks, new enhancements and constant changes to scope, time and quality. The key to learning the benefits of the Agile Manifesto will always keep leaders pulses ahead of the typical trend. My goal is to promote the Agile Manifesto created in 2001 by teaching Dominion Enterprises employees the power of being alert, fully-capable and innovative.  ',
+        ],
+        '57c5e408e9b69' => [
+            'title' => null,
+            'presenters' => [ 'matthew_tiffany' ],
+            'description' => 'A discussion on the new DHS openstack environment and our free tenant. Attendees should expect to learn the basics of openstack and it\'s components, as well as how to use the free tenant.',
+        ],
+        '57c5e408e9ba5' => [
+            'title' => null,
+            'presenters' => [ 'chris_horton', 'tabatha_anger' ],
+            'description' => 'Together with Tabatha Anger, I would like to share A UX presentation on dark patterns. A Dark Pattern is a user interface that has been carefully crafted to trick users into doing things, such as buying insurance with their purchase or signing up for recurring bills (http://darkpatterns.org/). Our discussion will center around the ethics of using these patterns and consumer reactions to brand\'s employing them.',
+        ],
+        '57c5e408e9bdf' => [
+            'title' => null,
+            'presenters' => [ 'alicia_sedarski' ],
+            'description' => 'Working on an idea... But I want to present',
+        ],
+        '57c5e408e9c22' => [
+            'title' => null,
+            'presenters' => [ 'chris_ryan' ],
+            'description' => 'Technical Debt, code maintainence, and some stories of the pain of falling behind. During the talk we will discuss some of the concepts of Technical Debt and the problems you can run into maintaining your code. We will present some of the tasks and techniques associated with maintaining code as well as some stories from the trenches.',
+        ],
+        '57c5e408e9c5c' => [
+            'title' => null,
+            'presenters' => [ 'lucien_frelin' ],
+            'description' => 'I\'d be down to do a logo design tutorial (2 hours) I\'d be down to do a 30 min talk on a $72k bug. I\'d be down to talk about design or team up with another presenter for a 50min talk. ',
+        ],
+        '57c5e408e9ca4' => [
+            'title' => 'Extreme Defensive Coding',
+            'presenters' => ['chad_gray'],
+            'description' => 'Learn to develop with these extreme defensive techniques.',
+        ],
+        '57c5e408e9cdd' => [
+            'title' => null,
+            'presenters' => [ 'brandon_beigay', 'chante_velez', 'michelle_brooks'],
+            'description' => 'Chante, Michelle, and Brandon will do their Lego Scrum session again.',
+        ],
+        '57c5e408e9d15' => [
+            'title' => null,
+            'presenters' => [ 'jonathan_hofler' ],
+            'description' => 'Life of a QA Engineer: what they do, tools they use, why knowing how to code is important, career path a QA\'s can progress to ',
+        ],
+        '57c5e408e9d4d' => [
+            'title' => null,
+            'presenters' => [ 'jose_mateo' ],
+            'description' => 'Building a real time chat app using Firebase and Android',
+        ],
+        '57c5e408e9d84' => [
+            'title' => null,
+            'presenters' => [ 'quentin_headen' ],
+            'description' => 'Title: Building Native Modules for Node.js  Description: In this talk, you will learn how to create and compile C++-based modules for Node.js. Learning this skill allows you to interface with native libraries and add even more functionality to your website. It also helps you see what Node.js is made of internally.',
+        ],
+        '57c5e408e9dbc' => [
+            'title' => 'Interactive Code Review',
+            'presenters' => [ 'derek_drummond' ],
+            'description' => 'I would like to have an interactive code review session. I will present some guidelines that should be used for a code review, and then open up the code for the audience to review. Audience members who make suggestions will also have to support their suggestion.',
+        ],
+        '57c5e408e9df3' => [
+            'title' => null,
+            'presenters' => [ 'anthony_bittle'],
+            'description' => 'With its simple design, Go has quickly become one of the top system level                                                                                                                                                                       programming languages. From Docker to Syncthing, there are all kinds of cool                                                                                                                                                                    open source projects being built in Go. Go is a relatively easy language to                                                                                                                                                                     learn, but it can be difficult to know where to start especially if you come                                                                                                                                                                    from a background of interpreted or dynamically typed languages.  In this talk                                                                                                                                                                  we\'ll introduce the basic language syntax and features as well as the tools                                                                                                                                                                     that make learning the language easier.',
+        ],
+        '57c5e408e9e2c' => [
+            'title' => null,
+            'presenters' => [ 'nasia_lee' ],
+            'description' => 'I plan to cover the meaning of true user experience and purposeful product creation.  I expect the attendees to begin to look at software development from the users perspective.  I will show techniques that will help attendees understand the need for thoughtful development. I will help attendees appreciate success in the form of fulfilling product needs. I will provide examples of successful user experience from large and small companies inside and outside of tech. I will show and warn of the hazards of not creating thoughful experiences.',
+        ],
+        '57c5e408e9e64' => [
+            'title' => null,
+            'presenters' => [ 'jeff_wolski', 'adam_vandover' ],
+            'description' => 'I\'d like to talk about a data dictionary that I\'m putting together for ForRent.com',
+        ],
+        '57c5e408e9e9c' => [
+            'title' => null,
+            'presenters' => [ 'steve_jones' ],
+            'description' => 'Fast Data (Kappa) Architecture with Kafka, Druid, and Spark.  Building on my presentation from last year on Lambda Architecture, this talk will focus on the move towards Kappa Architecture, where "everything is a stream", and fast analytics.',
+        ],
+        '57c5e408e9ed4' => [
+            'title' => null,
+            'presenters' => [ 'guillermo_fisher' ],
+            'description' => 'Deploying scalable, fault-tolerant PHP applications into AWS is easier than you think. In this talk, we\'ll cover some of the tools and concepts critical to the development of modern PHP applications and take a look at some Amazon Web Service products that will make your life easier... and help you sleep better at night.',
+        ],
+        '57c5e408e9f08' => [
+            'title' => 'Build your own API',
+            'presenters' => [ 'chad_gray' ],
+            'description' => 'Not sure what the exact topic will be now, but thinking of a how-to tutorial where the participants will build a restful api using PHP , PSR-7 and Slim framework',
+        ],
+        '57c5e408e9f40' => [
+            'title' => null,
+            'presenters' => [ 'elliott_peay'],
+            'description' => 'Note: I\'m not entirely sure if this is a 50 or 30 minute talk, yet.  I hope to teach the audience about Puppet, a great tool for infrastructure management.  I can go over how we use Puppet at ForRent, and how someone would get started using it in their infrastructure.  I hope to include a few "oh that\'s cool" kind of moments as the configuration "just works" as I add additional servers to a cluster.',
+        ],
+    ],
     'faq' => [
         'What is DE DevCon?' => 'DE DevCon is a developer conference being led by Chad Gray and Chris Ryan from floor 12B at Dominion Enterprises. Our goal is to bring the community of sharing you find at a larger developer conference to our co-workers here at Dominion Square.',
         'When is DE DevCon?' => 'DE DevCon IV will be held on Thursday October 6th and Friday October 7th 2016',
