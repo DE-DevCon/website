@@ -250,9 +250,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'Building a real time chat app using Firebase and Android',
         ],
         '57c5e408e9d84' => [
-            'title' => null,
+            'title' => 'Building Native Modules for Node.js',
             'presenters' => [ 'quentin_headen' ],
-            'description' => 'Title: Building Native Modules for Node.js  Description: In this talk, you will learn how to create and compile C++-based modules for Node.js. Learning this skill allows you to interface with native libraries and add even more functionality to your website. It also helps you see what Node.js is made of internally.',
+            'description' => 'In this talk, you will learn how to create and compile C++-based modules for Node.js. Learning this skill allows you to interface with native libraries and add even more functionality to your website. It also helps you see what Node.js is made of internally.',
         ],
         '57c5e408e9dbc' => [
             'title' => 'Interactive Code Review',
