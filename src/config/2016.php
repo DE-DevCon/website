@@ -227,7 +227,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57c5e408e9c5c' => [
             'title' => null,
             'presenters' => [ 'lucien_frelin' ],
-            'description' => 'I\'d be down to do a logo design tutorial (2 hours) I\'d be down to do a 30 min talk on a $72k bug. I\'d be down to talk about design or team up with another presenter for a 50min talk. ',
+            'description' => 'Talk about design or team up with another presenter for a 50min talk.',
         ],
         '57c5e408e9ca4' => [
             'title' => 'Extreme Defensive Coding',
