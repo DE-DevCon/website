@@ -49,6 +49,7 @@ return function(\Slim\Slim $app, array $options) {
 
     if (isset($options['people'])) {
         $app->get('/people', function() use($app, $options) {
+            ksort($options['people']);
             $app->render('people.html', ['page' => 'people'] + $options);
         })->name("{$options['year']}-people");
     }
