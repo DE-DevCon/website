@@ -217,7 +217,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57c5e408e9bdf' => [
             'title' => null,
             'presenters' => [ 'alicia_sedarski' ],
-            'description' => 'Working on an idea... But I want to present',
+            'description' => 'Mentoring',
         ],
         '57c5e408e9c22' => [
             'title' => null,
