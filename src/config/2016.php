@@ -84,7 +84,7 @@ return [
         ],
         'derek_drummond' => [
             'name' => 'Derek Drummond',
-            'description' => '',
+            'description' => 'Derek is an ETL developer for TraderOnline's architecture team. He is a frequent contributor to the DELabs blog, and was the primary contibutor to the Code4HR Hercules API that supports explore.code4hr.org',
             'twitter' => null,
         ],
         'anthony_bittle' => [
@@ -255,9 +255,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'In this talk, you will learn how to create and compile C++-based modules for Node.js. Learning this skill allows you to interface with native libraries and add even more functionality to your website. It also helps you see what Node.js is made of internally.',
         ],
         '57c5e408e9dbc' => [
-            'title' => 'Interactive Code Review',
+            'title' => 'Code Review Workshop',
             'presenters' => [ 'derek_drummond' ],
-            'description' => 'I would like to have an interactive code review session. I will present some guidelines that should be used for a code review, and then open up the code for the audience to review. Audience members who make suggestions will also have to support their suggestion.',
+            'description' => 'After a short presentation covering code review best practices I will moderate a group code review. Participants are encouraged to bring a laptop or tablet so they review pull requests to a github repository. Audience members will have the opportunity to win prizes by commenting on the code and providing an explanation as to why the code should be changed. Those without a public GitHub account or laptop will still be able to participate as pull requests will be displayed on the screen. A link to the GitHub repository used in the presentation is coming soon.',
         ],
         '57c5e408e9df3' => [
             'title' => 'untitled',
