@@ -84,7 +84,7 @@ return [
         ],
         'derek_drummond' => [
             'name' => 'Derek Drummond',
-            'description' => 'Derek is an ETL developer for TraderOnline's architecture team. He is a frequent contributor to the DELabs blog, and was the primary contibutor to the Code4HR Hercules API that supports explore.code4hr.org',
+            'description' => "Derek is an ETL developer for TraderOnline's architecture team. He is a frequent contributor to the DELabs blog, and was the primary contibutor to the Code4HR Hercules API that supports explore.code4hr.org",
             'twitter' => null,
         ],
         'anthony_bittle' => [
