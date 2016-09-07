@@ -47,7 +47,7 @@ return [
         ],
         'pamela_jones' => [
             'name' => 'Pamela Jones',
-            'description' => '',
+            'description' => 'I am the Business Writer & Strategist for ForRent.com. I work on the 16th floor, Quad B, under Steve "Berto" Bertolacci in Search Strategies. I have only been with the company for one month. I have consulting experience in building brands through publicity, marketing and branding techniques which has helped me in managing projects, creating innovative campaigns and staying progressive in my field. I have a website titled TheBrandingIcon.com dedicated to building brands through personalized strategy sessions!',
             'twitter' => null,
         ],
         'matthew_tiffany' => [
