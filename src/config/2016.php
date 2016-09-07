@@ -5,14 +5,16 @@ return [
     'home' => [
         'news' => [
             'DE DevCon IV is Thursday, October 6th & Friday October 7th!',
-            'Call for papers is now open, Click <a href="/2016/cfp">here</a> to submit your proposal today!',
+            'See the full schedule <a href="/2016/schedule">here.</a>',
         ],
     ],
-    'callForPapers' => [
-        'due' => strtotime('2016/09/02 23:59:59'),
-        'selection' => strtotime('2016/09/07 12:00:00'),
-    ],
+    'callForPapers' => null,
     'people' => [
+        'jon_kranz'=> [
+            'name' => 'Jon Kranz',
+            'description' => null,
+            'twitter' => null,
+        ],
         'jason_carpenter' => [
             'name' => 'Jason Carpenter',
             'description' => null,
@@ -130,7 +132,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         'chad_gray' => [
             'name' => 'Chad Gray',
-            'description' => 'Chad has been developing with PHP for 12+ years and has been employed by Dominion Enterprises for the 10 years. While at Dominion, Chad has helped lead the charge in API and OpenSource development. Chad has contributed to many open source projects including ZF2, Stripe, Slim and Solarium. He is also an avid comic collector.',
+            'description' => 'Chad has been developing with PHP for 12+ years and has been employed by Dominion Enterprises for a total of 10 years. While at Dominion, Chad has helped lead the charge in API and OpenSource development. Chad has contributed to many open source projects including ZF2, Stripe, Slim and Solarium. He is also an avid comic collector.',
             'twitter' => 'chadicus78',
         ],
         'michelle_brooks' => [
@@ -158,8 +160,8 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             ],
         ],
         '2016-10-07' => [
-            '2016-10-07 08:30' => 'Coffee/Opening remarks',
-            '2016-10-07 09:00' => 'Keynote TBD',
+            '2016-10-07 08:45' => 'Coffee/Opening remarks',
+            '2016-10-07 09:15' => '<a href="/2016/topics#57d00a35b0bd6">The Customer Isn\'t Always Right</a><h5><a href="/2016/people#jon_kranz">Jon Kranz</a></h5>',
             '2016-10-07 10:00' => [
                 'room1' => '57c5e408e9bdf',
                 'room2' => '57c5e408e9ed4',
@@ -194,6 +196,11 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
     ],
     'topics' => [
+        '57d00a35b0bd6' => [
+            'title' => "The Customer Isn't Always Right",
+            'presenters' => ['jon_kranz'],
+            'description' => "Every day, you are interacting with so many different people from different backgrounds and areas of expertise. Not just in the office but outside as well. These are your colleagues. Customers. Friends. You will face conflict. Sometimes justly. Sometimes not. It's human nature. <br />What do you do in these situations? How do you get your point across without damaging the relationship? <br />This talk will be about something I call, the L.A.U.G.H. Method which I have found to be my most effective tool for treating everyone I interact with in a way where they feel heard, understood and respected.<br />This talk will be a short, take-what-you-like-and-leave-the-rest, TED-style presentation. It's intended to be light-hearted, personal storytelling. I will share my own experiences and anecdotes. The presentation will include references to and handouts from professional resources and experts in interpersonal communication like Marshall Goldsmith and Mark Reiter and others (probably).<ol><li>What's your problem?</li><li>What's a customer?</li><li>The Customer Isn't Always Right</li><li>Triggers</li><li>LAUGH.</li><li>Conclusion</li></ol>",
+        ],
         '57c5e408e9aXX' => [
             'title' => 'Design Disruptors Viewing',
             'presenters' => [],
