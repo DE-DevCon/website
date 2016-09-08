@@ -62,8 +62,8 @@ return [
         ],
         'alicia_sedarski' => [
             'name' => 'Alicia Sedarski',
-            'description' => '',
-            'twitter' => null,
+            'description' => "A 1st degree black belt in Karate, Alicia has been working with DE as a Web Developer for the TraderOnline Commercial division for just over one year with 3 years overall development experience. Since working at Dominion Enterprises, she has participated in her first two Hack-A-Thons, winning Best in Show at Hack 2 Help HR and Most Polished at DE Hack Sales. She is the primary developer on explore.code4hr.org developed from Hack 2 Help HR supported by the Hercules API. Outside of work she enjoys reading, playing Assassins Creed, baking, quilting, and doing activities outside with her dog.",
+            'twitter' => 'AliciaSedarski',
         ],
         'chris_ryan' => [
             'name' => 'Chris Ryan',
@@ -232,9 +232,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'Together with Tabatha Anger, I would like to share A UX presentation on dark patterns. A Dark Pattern is a user interface that has been carefully crafted to trick users into doing things, such as buying insurance with their purchase or signing up for recurring bills (http://darkpatterns.org/). Our discussion will center around the ethics of using these patterns and consumer reactions to brand\'s employing them.',
         ],
         '57c5e408e9bdf' => [
-            'title' => 'Mentoring',
+            'title' => 'Mentoring: Why Everyone Should be a Mentor',
             'presenters' => [ 'alicia_sedarski' ],
-            'description' => 'Mentoring',
+            'description' => "What secret information are you holding onto? What process is it that only you know how to do? We all have our own skillset, and people are designed to do things differently, but what if you're not there? In this talk I will prove why it's important to share the wealth of knowledge with your peers, and how to do it effectively, so they are not dead in the water when you're not there.",
         ],
         '57c5e408e9c22' => [
             'title' => 'Technical Debt',
