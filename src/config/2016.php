@@ -22,7 +22,7 @@ return [
         ],
         'michael_berry' => [
             'name' => 'Michael Berry',
-            'description' => null,
+            'description' => "I graduated with a BS in Computer Engineering and have been working around code/websites, software and hardware for the better part of 20 years.  My start was in hardware integration and used to build and repair PCs as hobby, a personal business and for several companies including Norfolk Southern.  I transitioned to Hardware Quality Assurance and handled reports and testing for hardware storage systems at a local company in Norfolk.  I transitioned to Software Quality Assurance when I started working at ForRent in 2009 with a focus around automated testing.  I recently transitioned to Software Engineer in 2015 after recognizing the passion and gaining enough experience to make a difference.",
             'twitter' => null,
         ],
         'adam_vandover' => [
@@ -314,7 +314,15 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57c711391a66c' => [
             'title' => 'Jenkins',
             'presenters' => ['michael_berry'],
-            'description' => 'Jenkins - Uses, Setup, Job Creation, Examples and general overview',
+            'description' => "<p>ForRent.com uses Jenkins as a transparent integral part of the software development lifecycle and I've been an unexpected yet passionate champion of it's power, flexability and usefulness at solving problems. Jenkins is an incredibly powerful tool on its own yet also contains an extensive plugin set and vibrant community of developers around the world. Here are some of the things we use Jenkins to accomplish at ForRent:</p>
+<ul>
+<li>A myriad of systems processes (normally handled by hand in crontab) that need to run visibly on schedule and on many different servers.</li>
+<li>Orchestrating code deployment through a rigid workflow that allows semi-continuous integration of releases</li>
+<li>Automated testing of many regions of the ForRent.com though hundreds of tests organized into suites.</li>
+<li>Data Exchange processes for importing and exporting data to and from vendors.</li>
+<li>Extract/Translate/Load processes to migrate data from authoritative SQL environments to caching and service layers.</li>
+</ul>
+<p>The Focus of the talk will be an overall introduction to Jenkins, some of the common terminology, basic setup.  I will try to dive into configuration, building projects and talking about some key plugins to make Jenkins as powerful as it can be.</p>",
         ],
         '57c712f972a68' => [
             'title' => 'CLI-Fu',
