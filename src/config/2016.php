@@ -27,8 +27,8 @@ return [
         ],
         'adam_vandover' => [
             'name' => 'Adam Vandover',
-            'description' => null,
-            'twitter' => null,
+            'description' => 'Adam Vandover a Rapid Prototyping Developer and a member of the ForRent.com Research and Development team.  He has ten years of web development experience with a background in computer science (and playing drums).  His experience includes programming with a wide array of languages from iOS, Java, JavaScript, PHP, HTML to SASS/CSS3.  Adam is presently engaged in facilitating five-day design sprints (a process developed by Google Ventures).',
+            'twitter' => '@adam2k',
         ],
         'tabatha_anger' => [
             'name' => 'Tabatha Anger',
