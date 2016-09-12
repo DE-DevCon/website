@@ -77,7 +77,7 @@ return [
         ],
         'brandon_beigay' => [
             'name' => 'Brandon Beigay',
-            'description' => 'Brandon is the project manager for the DWS Recreation team.',
+            'description' => 'Brandon has been with DE for a long time holding positions as a Product Developer and/or Project Manager.  He has been both a Hackathon chair and active participant, winning several awards with his teammates.  Currently he works for the DWS Recreation team utilizing aspects of Scrum and Agile to move towards an Autonomous development environment.',
         ],
         'jonathan_hofler' => [
             'name' => 'Jonathan Hofler',
@@ -111,7 +111,7 @@ return [
         ],
         'jeff_wolski' => [
             'name' => 'Jeff Wolski',
-            'description' => 'Jeff Wolski is a database developer at ForRent, father of 4, woodworker, horror movie buff, student, maker, vegetarian, and coffee lover.',
+            'description' => 'Jeff is a database developer on the ForRent R&D Team specializing in database design, ETL, and API development. He is also a math student at ODU and enjoys woodworking and welding.',
             'twitter' => null,
         ],
         'steve_jones' => [
@@ -287,9 +287,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'I plan to cover the meaning of true user experience and purposeful product creation.  I expect the attendees to begin to look at software development from the users perspective.  I will show techniques that will help attendees understand the need for thoughtful development. I will help attendees appreciate success in the form of fulfilling product needs. I will provide examples of successful user experience from large and small companies inside and outside of tech. I will show and warn of the hazards of not creating thoughful experiences.',
         ],
         '57c5e408e9e64' => [
-            'title' => 'Data Dictionary',
+            'title' => 'Data Inventory Explore',
             'presenters' => [ 'jeff_wolski', 'adam_vandover' ],
-            'description' => 'I\'d like to talk about a data dictionary that I\'m putting together for ForRent.com',
+            'description' => 'The Data Inventory Explorer is an initiative by the ForRent research and development team which harvests, consolidates, stores, and displays metadata. Users can explore the relationships among data sources across a variety of database platforms.',
         ],
         '57c5e408e9e9c' => [
             'title' => 'Fast Data (Kappa) Architecture',
