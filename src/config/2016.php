@@ -77,7 +77,7 @@ return [
         ],
         'brandon_beigay' => [
             'name' => 'Brandon Beigay',
-            'description' => 'Brandon is the project manager for the DWS Recreation team.',
+            'description' => 'Brandon has been with DE for a long time holding positions as a Product Developer and/or Project Manager.  He has been both a Hackathon chair and active participant, winning several awards with his teammates.  Currently he works for the DWS Recreation team utilizing aspects of Scrum and Agile to move towards an Autonomous development environment.',
         ],
         'jonathan_hofler' => [
             'name' => 'Jonathan Hofler',
