@@ -17,7 +17,7 @@ return [
         ],
         'jason_carpenter' => [
             'name' => 'Jason Carpenter',
-            'description' => null,
+            'description' => 'Jason is a DevOps Engineer for Dominion Web Solutions.  He has been with Dominion Enterprises since November 2014 and has over 10 years overall IT experience, four of which have been in Linux system administration. Jason is the father of four children, a Linux enthusiast, guitarist, vocalist, Sci-Fi fan, casual gamer, and taco fanatic.',
             'twitter' => null,
         ],
         'michael_berry' => [
@@ -327,7 +327,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57c712f972a68' => [
             'title' => 'CLI-Fu',
             'presenters' => ['jason_carpenter'],
-            'description' => 'CLI-FU is a presentation which aims to familiarize the audience with extremely useful but less known Linux command line tools, tricks, and functions',
+            'description' => "Have you ever watched some one else using the Linux command-line and seen them throw some obscure keyboard shortcut or type something you've never seen before?  Have you had the urge to say \"Wait a minute!  What did you just do there, you mad scientist, you?\"  In this presentation, we will be covering neat little tricks you can add to your tool belt to make you a master of CLI-Fu.",
         ],
     ],
     'faq' => [
