@@ -37,7 +37,7 @@ return [
         ],
         'allen_torres' => [
             'name' => 'Allen Torres',
-            'description' => '',
+            'description' => "Through a rollercoaster of career paths from Photographer's Mate in the Navy to G.I.S Tech and now Software Developer, Allen's underlying passion for art and technology is the commonality between them. He's started at ForRent as an Entry Level Engineer in 2008 and has since made his way to Lead Software Engineer and managing the ForRent API Team. He started working as a PHP Developer but has also worked with C#, NodeJS, and Java. He's now leading the efforts in integrating the Elastic Stack at ForRent to power API's and support their Data Science initiatives.",
             'twitter' => null,
         ],
         'aliza_shoop' => [
