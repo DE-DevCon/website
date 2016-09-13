@@ -37,7 +37,7 @@ return [
         ],
         'allen_torres' => [
             'name' => 'Allen Torres',
-            'description' => '',
+            'description' => "Through a rollercoaster of career paths from Photographer's Mate in the Navy to G.I.S Tech and now Software Developer, Allen's underlying passion for art and technology is the commonality between them. He's started at ForRent as an Entry Level Engineer in 2008 and has since made his way to Lead Software Engineer and managing the ForRent API Team. He started working as a PHP Developer but has also worked with C#, NodeJS, and Java. He's now leading the efforts in integrating the Elastic Stack at ForRent to power API's and support their Data Science initiatives.",
             'twitter' => null,
         ],
         'aliza_shoop' => [
@@ -86,7 +86,7 @@ return [
         ],
         'jose_mateo' => [
             'name' => 'Jose Mateo',
-            'description' => 'Jose Mateo is the Android Developer for Dominion Web Solutions\' recreational brands and has been with the company since July 2014. During his short time with DWS, Android apps for the business have seen a drastic increase in ratings and positive user feedback. With over 50,000 downloads, the Cycle Trader app is in the top 500 in the Play Store for Lifestyle apps. Jose is also the founder of Rocket Science, a startup that has helped other start ups build their mobile apps  and websites in a cost efficient way.',
+            'description' => 'Jose is the Android Developer for Dominion Web Solutions\' recreational brands and has been with the company since July 2014. During his short time with DWS, Android apps for the business have seen a drastic increase in ratings and positive user feedback. With over 50,000 downloads, the Cycle Trader app is in the top 500 in the Play Store for Lifestyle apps. Jose is also the founder of Rocket Science, a startup that has helped other start ups build their mobile apps  and websites in a cost efficient way.',
             'twitter' => null,
         ],
         'quentin_headen' => [
@@ -116,7 +116,7 @@ return [
         ],
         'steve_jones' => [
             'name' => 'Steve Jones',
-            'description' => 'Steve joined Dominion Enterprises and For Rent Media Solutions as a Systems Administrator in 2007 and was promoted to  Senior Systems Administrator in 2011. Seeking new data-driven challenges, he joined the Dominion Business Solutions Technology group in 2013, focusing primarily on ETL (SSIS) development on the DX1 project. While he has worn several hats throughout his career, his passions lie in architecture, big data, infrastructure, and analytics. In May, 2014, he transitioned back to For Rent as Data Architect. A Hampton Roads native, Steve enjoys ocean kayaking, riding his motorcycle, and performing with his band.',
+            'description' => 'Steve is a Hampton Roads native and Data Architect at For Rent, having joined DE in 2007.',
             'twitter' => null,
         ],
         'guillermo_fisher' => [
@@ -262,9 +262,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'Life of a QA Engineer: what they do, tools they use, why knowing how to code is important, career path a QA\'s can progress to ',
         ],
         '57c5e408e9d4d' => [
-            'title' => 'Realtime Chat App',
+            'title' => 'Building a real-time Android app with Firebase',
             'presenters' => [ 'jose_mateo' ],
-            'description' => 'Building a real time chat app using Firebase and Android',
+            'description' => 'During this interactive tutorial, participants will learn the basics of android development and how to integrate third party libraries to implement complex functionality without reinventing the wheel. If this will be your first time working with Android and you would like to follow along, make sure to setup Android Studio before attending the session. Having Android Studio is not a requirement but it\'s highly recommended. You can follow <a href="http://mateoj.com/2015/10/06/creating-movies-app-retrofit-picasso-android/#setting-up-android-studio" target="_blank">these instructions</a> to setup the IDE.',
         ],
         '57c5e408e9d84' => [
             'title' => 'Building Native Modules for Node.js',
@@ -294,7 +294,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57c5e408e9e9c' => [
             'title' => 'Fast Data (Kappa) Architecture',
             'presenters' => [ 'steve_jones' ],
-            'description' => 'Fast Data (Kappa) Architecture with Kafka, Druid, and Spark.  Building on my presentation from last year on Lambda Architecture, this talk will focus on the move towards Kappa Architecture, where "everything is a stream", and fast analytics.',
+            'description' => 'As a logical progression from Lambda Architecture, this talk will focus on the move towards Kappa Architecture, where "everything is a stream", and fast data/analytics.',
         ],
         '57c5e408e9ed4' => [
             'title' => 'PHP &amp; AWS',
