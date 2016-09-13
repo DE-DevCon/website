@@ -86,7 +86,7 @@ return [
         ],
         'jose_mateo' => [
             'name' => 'Jose Mateo',
-            'description' => 'Jose Mateo is the Android Developer for Dominion Web Solutions\' recreational brands and has been with the company since July 2014. During his short time with DWS, Android apps for the business have seen a drastic increase in ratings and positive user feedback. With over 50,000 downloads, the Cycle Trader app is in the top 500 in the Play Store for Lifestyle apps. Jose is also the founder of Rocket Science, a startup that has helped other start ups build their mobile apps  and websites in a cost efficient way.',
+            'description' => 'Jose is the Android Developer for Dominion Web Solutions\' recreational brands and has been with the company since July 2014. During his short time with DWS, Android apps for the business have seen a drastic increase in ratings and positive user feedback. With over 50,000 downloads, the Cycle Trader app is in the top 500 in the Play Store for Lifestyle apps. Jose is also the founder of Rocket Science, a startup that has helped other start ups build their mobile apps  and websites in a cost efficient way.',
             'twitter' => null,
         ],
         'quentin_headen' => [
@@ -262,9 +262,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'Life of a QA Engineer: what they do, tools they use, why knowing how to code is important, career path a QA\'s can progress to ',
         ],
         '57c5e408e9d4d' => [
-            'title' => 'Realtime Chat App',
+            'title' => 'Building a real-time Android app with Firebase',
             'presenters' => [ 'jose_mateo' ],
-            'description' => 'Building a real time chat app using Firebase and Android',
+            'description' => 'During this interactive tutorial, participants will learn the basics of android development and how to integrate third party libraries to implement complex functionality without reinventing the wheel. If this will be your first time working with Android and you would like to follow along, make sure to setup Android Studio before attending the session. Having Android Studio is not a requirement but it\'s highly recommended. You can follow <a href="http://mateoj.com/2015/10/06/creating-movies-app-retrofit-picasso-android/#setting-up-android-studio" target="_blank">these instructions</a> to setup the IDE.',
         ],
         '57c5e408e9d84' => [
             'title' => 'Building Native Modules for Node.js',
