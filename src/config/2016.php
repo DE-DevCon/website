@@ -116,7 +116,7 @@ return [
         ],
         'steve_jones' => [
             'name' => 'Steve Jones',
-            'description' => 'Steve joined Dominion Enterprises and For Rent Media Solutions as a Systems Administrator in 2007 and was promoted to  Senior Systems Administrator in 2011. Seeking new data-driven challenges, he joined the Dominion Business Solutions Technology group in 2013, focusing primarily on ETL (SSIS) development on the DX1 project. While he has worn several hats throughout his career, his passions lie in architecture, big data, infrastructure, and analytics. In May, 2014, he transitioned back to For Rent as Data Architect. A Hampton Roads native, Steve enjoys ocean kayaking, riding his motorcycle, and performing with his band.',
+            'description' => 'Steve is a Hampton Roads native and Data Architect at For Rent, having joined DE in 2007.',
             'twitter' => null,
         ],
         'guillermo_fisher' => [
@@ -294,7 +294,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57c5e408e9e9c' => [
             'title' => 'Fast Data (Kappa) Architecture',
             'presenters' => [ 'steve_jones' ],
-            'description' => 'Fast Data (Kappa) Architecture with Kafka, Druid, and Spark.  Building on my presentation from last year on Lambda Architecture, this talk will focus on the move towards Kappa Architecture, where "everything is a stream", and fast analytics.',
+            'description' => 'As a logical progression from Lambda Architecture, this talk will focus on the move towards Kappa Architecture, where "everything is a stream", and fast data/analytics.',
         ],
         '57c5e408e9ed4' => [
             'title' => 'PHP &amp; AWS',
