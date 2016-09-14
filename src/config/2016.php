@@ -37,12 +37,12 @@ return [
         ],
         'allen_torres' => [
             'name' => 'Allen Torres',
-            'description' => "Through a rollercoaster of career paths from Photographer's Mate in the Navy to G.I.S Tech and now Software Developer, Allen's underlying passion for art and technology is the commonality between them. He's started at ForRent as an Entry Level Engineer in 2008 and has since made his way to Lead Software Engineer and managing the ForRent API Team. He started working as a PHP Developer but has also worked with C#, NodeJS, and Java. He's now leading the efforts in integrating the Elastic Stack at ForRent to power API's and support their Data Science initiatives.",
+            'description' => "Through a rollercoaster of career paths from Photographer's Mate in the Navy to G.I.S Tech and now Software Developer, Allen's underlying passion for art and technology is the common thread in his career. He started at ForRent as an Entry Level Engineer in 2008 and has since made his way to Lead Software Engineer and managing the ForRent API Team. He began working as a PHP Developer but has also worked with C#, NodeJS, and Java. He's now leading the efforts in integrating the Elastic Stack at ForRent to power API's and support their Data Science initiatives.",
             'twitter' => null,
         ],
         'aliza_shoop' => [
             'name' => 'Aliza Shoop',
-            'description' => '',
+            'description' => "I am an experienced web metrics analyst and a data jack-of-all-trades, exploring and analyzing data from web analytics, search and SEO for Dominion Enterprises for 3+ years. I have a BS and AS in Business Administration and IT and I'm currently taking a course in Data Science.",
             'twitter' => null,
         ],
         'pamela_jones' => [
@@ -212,9 +212,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'I will be discussing how ForRent is using the Elastic Stack. I plan to go over how we use it for logging and searching for apartments. I\'ll speak a little bit about each product (Logstash, Elasticsearch, Beats, and Kibana) and how we\'re using them. This talk is great for DevOps, Software Developers, and Database Developers.',
         ],
         '57c5e408e9af3' => [
-            'title' => 'Data Visualization',
+            'title' => 'Data Visualization Techniques',
             'presenters' => [ 'aliza_shoop' ],
-            'description' => 'Data Visualization - Important things I learned from Stephen Few at the Perceptual Edge conference',
+            'description' => 'This will be a compilation of advice and demonstrations on how to create and display data in a "tips & tricks" style presentation.  This is a mixture of the best ideas from the Perceptual Edge conference given by Stephen Few and lessons learned from trial and error while working at Dominion Enterprises.',
         ],
         '57c5e408e9b2c' => [
             'title' => 'Agile Manifesto',
