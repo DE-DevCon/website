@@ -13,7 +13,7 @@ return [
         'jon_kranz'=> [
             'name' => 'Jon Kranz',
             'description' => 'Jon is a User Experience Architect for Trader Online Recreation Group. He has been with Dominion Enterprises since August 2006 and has over 20 years experience in digital product design and strategy. When not at work, Jon is an aspiring stand-up comedian and autism advocate. He should have started C.A.S.T. - the Coalition Against Show Tunes. He lives in Virginia Beach with his wife of 20 years and his 8 year-old son.',
-            'twitter' => '@i8paste',
+            'twitter' => 'i8paste',
         ],
         'jason_carpenter' => [
             'name' => 'Jason Carpenter',
