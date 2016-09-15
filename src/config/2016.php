@@ -12,8 +12,8 @@ return [
     'people' => [
         'jon_kranz'=> [
             'name' => 'Jon Kranz',
-            'description' => null,
-            'twitter' => null,
+            'description' => 'Jon is a User Experience Architect for Trader Online Recreation Group. He has been with Dominion Enterprises since August 2006 and has over 20 years experience in digital product design and strategy. When not at work, Jon is an aspiring stand-up comedian and autism advocate. He should have started C.A.S.T. - the Coalition Against Show Tunes. He lives in Virginia Beach with his wife of 20 years and his 8 year-old son.',
+            'twitter' => 'i8paste',
         ],
         'jason_carpenter' => [
             'name' => 'Jason Carpenter',
@@ -199,7 +199,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57d00a35b0bd6' => [
             'title' => "The Customer Isn't Always Right",
             'presenters' => ['jon_kranz'],
-            'description' => "Every day, you are interacting with so many different people from different backgrounds and areas of expertise. Not just in the office but outside as well. These are your colleagues. Customers. Friends. You will face conflict. Sometimes justly. Sometimes not. It's human nature. <br />What do you do in these situations? How do you get your point across without damaging the relationship? <br />This talk will be about something I call, the L.A.U.G.H. Method which I have found to be my most effective tool for treating everyone I interact with in a way where they feel heard, understood and respected.<br />This talk will be a short, take-what-you-like-and-leave-the-rest, TED-style presentation. It's intended to be light-hearted, personal storytelling. I will share my own experiences and anecdotes. The presentation will include references to and handouts from professional resources and experts in interpersonal communication like Marshall Goldsmith and Mark Reiter and others (probably).<ol><li>What's your problem?</li><li>What's a customer?</li><li>The Customer Isn't Always Right</li><li>Triggers</li><li>LAUGH.</li><li>Conclusion</li></ol>",
+            'description' => "Description to come.",
         ],
         '57c5e408e9aXX' => [
             'title' => 'Design Disruptors Viewing',
