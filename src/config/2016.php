@@ -65,6 +65,10 @@ return [
             'description' => "A 1st degree black belt in Karate, Alicia has been working with DE as a Web Developer for the TraderOnline Commercial division for just over one year with 3 years overall development experience. Since working at Dominion Enterprises, she has participated in her first two Hack-A-Thons, winning Best in Show at Hack 2 Help HR and Most Polished at DE Hack Sales. She is the primary developer on explore.code4hr.org developed from Hack 2 Help HR supported by the Hercules API. Outside of work she enjoys reading, playing Assassins Creed, baking, quilting, and doing activities outside with her dog.",
             'twitter' => 'AliciaSedarski',
         ],
+        'james_tramel' => [
+            'name' => 'James Tramel',
+            'description' => 'Microsoft Developer Technical Strategist. I work with some of the largest enterprises on the planet, and their teams, to understand and adopt strategies and technologies for building solutions, and becoming more agile, while optimizing their modern application life cycle management tools and investments.',
+        ],
         'chris_ryan' => [
             'name' => 'Chris Ryan',
             'description' => 'Chris has been doing software development for over 15 years.  Experience in C, C++, Java, Php, Javascript and several others.  Has worked on both websites and desktop applications with multi-platform support doing network, database, and application development.  Has been active in improving the infrastructure and culture of development processes to better both the individuals and codebases of the Dominion Web Solutions websites. Also enjoys building, crafting, and making cheese.',
@@ -237,9 +241,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => "What secret information are you holding onto? What process is it that only you know how to do? We all have our own skillset, and people are designed to do things differently, but what if you're not there? In this talk I will prove why it's important to share the wealth of knowledge with your peers, and how to do it effectively, so they are not dead in the water when you're not there.",
         ],
         '57c5e408e9c22' => [
-            'title' => 'Technical Debt',
-            'presenters' => [ 'chris_ryan' ],
-            'description' => 'Technical Debt, code maintainence, and some stories of the pain of falling behind. During the talk we will discuss some of the concepts of Technical Debt and the problems you can run into maintaining your code. We will present some of the tasks and techniques associated with maintaining code as well as some stories from the trenches.',
+            'title' => 'Develop better, faster',
+            'presenters' => [ 'james_tramel' ],
+            'description' => "Find the issue, fix the problem. Watch out for trouble, and watch your code. Commoditize your work, make it reusable. DevOps is about three major things; People, Process and Products. We'll focus mainly on the products here - the tools you need to succeed. We'll go through modern debugging, modeling and mapping. Integrated testing in the cloud. Create your own new targets and tear them down, keeping what you want. Build, release, repeat.  App focus on modern web."
         ],
         '57c5e408e9c5c' => [
             'title' => 'Untitled',
