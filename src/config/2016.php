@@ -134,6 +134,10 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'twitter' => null,
             'description' => null,
         ],
+        'andrew_ditmer' => [
+            'name' => 'Andrew Ditmer',
+            'description' => "Andrew is a Microsoft/Xamarin Sr. Customer Success Engineer.  He comes from a ASP.NET web development background and works with enterprise development teams to define their mobile strategies and kickoff their mobile projects.  He has a passion for software that make people's lives better and is currently working on a mobile app for Type 1 Diabetics and their families.",
+        ],
         'chad_gray' => [
             'name' => 'Chad Gray',
             'description' => 'Chad has been developing with PHP for 12+ years and has been employed by Dominion Enterprises for a total of 10 years. While at Dominion, Chad has helped lead the charge in API and OpenSource development. Chad has contributed to many open source projects including ZF2, Stripe, Slim and Solarium. He is also an avid comic collector.',
@@ -306,9 +310,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'Deploying scalable, fault-tolerant PHP applications into AWS is easier than you think. In this talk, we\'ll cover some of the tools and concepts critical to the development of modern PHP applications and take a look at some Amazon Web Service products that will make your life easier... and help you sleep better at night.',
         ],
         '57c5e408e9f08' => [
-            'title' => 'Build your own API',
-            'presenters' => [ 'chad_gray' ],
-            'description' => 'Not sure what the exact topic will be now, but thinking of a how-to tutorial where the participants will build a restful api using PHP , PSR-7 and Slim framework',
+            'title' => 'Build Native iOS and Android Apps in C# and Visual Studio with Xamarin',
+            'presenters' => ['andrew_ditmer'],
+            'description' => 'Join Andrew as he builds a native iOS and Android app live and in person in C#.  Learn how to make a truly native cross platform mobile app with native UI, 100% API coverage for iOS and Android, and native performance.  We will use Visual Studio 2015 to build a real life, working, 2 screen application from the beginning.  File->New Project all the way through.'
         ],
         '57c5e408e9f40' => [
             'title' => 'Puppet',
