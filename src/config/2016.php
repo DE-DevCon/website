@@ -95,7 +95,7 @@ return [
         ],
         'quentin_headen' => [
             'name' => 'Quentin Headen',
-            'description' => '',
+            'description' => 'Quentin Headen works as a experienced PHP web developer for TraderOnline.com. He not only codes for the job, but he also enjoys it as a hobby and loves learning the intricate parts of low-level programming. He also highly enjoys gaming and sleep.',
             'twitter' => null,
         ],
         'derek_drummond' => [
@@ -275,9 +275,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'During this interactive tutorial, participants will learn the basics of android development and how to integrate third party libraries to implement complex functionality without reinventing the wheel. If this will be your first time working with Android and you would like to follow along, make sure to setup Android Studio before attending the session. Having Android Studio is not a requirement but it\'s highly recommended. You can follow <a href="http://mateoj.com/2015/10/06/creating-movies-app-retrofit-picasso-android/#setting-up-android-studio" target="_blank">these instructions</a> to setup the IDE.',
         ],
         '57c5e408e9d84' => [
-            'title' => 'Building Native Modules for Node.js',
+            'title' => 'Building Native Addons for Node.js',
             'presenters' => [ 'quentin_headen' ],
-            'description' => 'In this talk, you will learn how to create and compile C++-based modules for Node.js. Learning this skill allows you to interface with native libraries and add even more functionality to your website. It also helps you see what Node.js is made of internally.',
+            'description' => 'In this tutorial attendees will be shown how to create C++ addons for Node.js. They will be taught Node.js to C++ type mappings, passing data and calling functions between the two environments, as well as libuv, the C++ library that enables Node\'s concurrency model. The materials in this tutorial assume a Node.js version of 4.5.0 or higher. Help will be extended to install the latest version if you do not have it.',
         ],
         '57c5e408e9dbc' => [
             'title' => 'Code Review Workshop',
