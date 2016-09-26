@@ -250,9 +250,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => "Find the issue, fix the problem. Watch out for trouble, and watch your code. Commoditize your work, make it reusable. DevOps is about three major things; People, Process and Products. We'll focus mainly on the products here - the tools you need to succeed. We'll go through modern debugging, modeling and mapping. Integrated testing in the cloud. Create your own new targets and tear them down, keeping what you want. Build, release, repeat.  App focus on modern web."
         ],
         '57c5e408e9c5c' => [
-            'title' => 'Untitled',
+            'title' => 'The $72,000 Bug',
             'presenters' => [ 'lucien_frelin' ],
-            'description' => 'Design',
+            'description' => 'A fascinating recount of what we as developers face daily. It highlights the many factors involved in producing code and developing products. Concluding with the notion that no matter how hard we try to add technology to automate process to alleviate human error, we’re still human.',
         ],
         '57c5e408e9ca4' => [
             'title' => 'Extreme Defensive Coding',
