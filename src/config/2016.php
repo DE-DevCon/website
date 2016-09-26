@@ -57,8 +57,8 @@ return [
         ],
         'chris_horton' => [
             'name' => 'Chris Horton',
-            'description' => '',
-            'twitter' => null,
+            'description' => 'Chris is a passionate web developer with over a decade of experience in the tech industry. Back when Napster roamed the earth, he learned to code via nightly tutelage from his awesomely generous roommate. Chris has seen many sides of the business including SEO, SEM, font-end web development and most recently apps. A pioneer of responsive web design here at DE, he strives to be a forward thinker in the new mobile-first economy. “Horton” currently leads the charge as senior product manager of Homes.com’s mobile app team and has been with Homes.com since 2006. When not furthering his ADD by using 8 mobile devices at one time, you will likely find him spinning records, surfing or slapping the bass.',
+            'twitter' => 'cHortonio',
         ],
         'alicia_sedarski' => [
             'name' => 'Alicia Sedarski',
