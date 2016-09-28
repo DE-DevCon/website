@@ -255,7 +255,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'A fascinating recount of what we as developers face daily. It highlights the many factors involved in producing code and developing products. Concluding with the notion that no matter how hard we try to add technology to automate process to alleviate human error, we’re still human.',
         ],
         '57c5e408e9ca4' => [
-            'title' => 'Extreme Defensive Coding',
+            'title' => 'Defensive Coding for Dummies',
             'presenters' => ['chad_gray'],
             'description' => 'Learn to develop with these extreme defensive techniques.',
         ],
