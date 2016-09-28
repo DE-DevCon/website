@@ -169,7 +169,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         '2016-10-07' => [
             '2016-10-07 08:45' => 'Coffee/Opening remarks',
-            '2016-10-07 09:15' => '<a href="/2016/topics#57d00a35b0bd6">The Customer Isn\'t Always Right</a><h5><a href="/2016/people#jon_kranz">Jon Kranz</a></h5>',
+            '2016-10-07 09:15' => '<a href="/2016/topics#57d00a35b0bd6">The Customer Isn\'t Always Right</a><h5><a href="/2016/people#jon_kranz">Jon Kranz</a></h5><h6>York Room</h6>',
             '2016-10-07 10:00' => [
                 'room1' => '57c5e408e9bdf',
                 'room2' => '57c5e408e9ed4',
@@ -255,7 +255,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'A fascinating recount of what we as developers face daily. It highlights the many factors involved in producing code and developing products. Concluding with the notion that no matter how hard we try to add technology to automate process to alleviate human error, we’re still human.',
         ],
         '57c5e408e9ca4' => [
-            'title' => 'Extreme Defensive Coding',
+            'title' => 'Defensive Coding for Dummies',
             'presenters' => ['chad_gray'],
             'description' => 'Learn to develop with these extreme defensive techniques.',
         ],
