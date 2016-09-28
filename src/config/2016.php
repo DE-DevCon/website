@@ -12,8 +12,8 @@ return [
     'people' => [
         'jon_kranz'=> [
             'name' => 'Jon Kranz',
-            'description' => 'Jon is a User Experience Architect for Trader Online Recreation Group. He has been with Dominion Enterprises since August 2006 and has over 20 years experience in digital product design and strategy. When not at work, Jon is an aspiring stand-up comedian and autism advocate. He should have started C.A.S.T. - the Coalition Against Show Tunes. He lives in Virginia Beach with his wife of 20 years and his 8 year-old son.',
-            'twitter' => 'i8paste',
+            'description' => 'Jon is a User Experience Architect for Dominion Web Solutions Recreation Group. He has been with Dominion Enterprises since August 2006 and has over 20 years experience in digital product design and strategy. When not at work, Jon is an aspiring stand-up comedian and autism advocate. He should have started C.A.S.T. - the Coalition Against Show Tunes. He lives in Virginia Beach with his wife of 20 years and his 8 year-old son.',
+            'twitter' => null,
         ],
         'jason_carpenter' => [
             'name' => 'Jason Carpenter',
@@ -207,7 +207,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57d00a35b0bd6' => [
             'title' => "The Customer Isn't Always Right",
             'presenters' => ['jon_kranz'],
-            'description' => "Description to come.",
+            'description' => "The best advice I ever received. In today’s rapidly changing world, we need to ask, listen and learn from everyone around us. Research shows that asking works. A recent study involving more than 11,000 leaders and 86,000 of their co-workers from eight major corporations showed that people who ask, listen, learn and consistently follow up are seen as becoming more effective. Leaders who don’t ask don’t get much better. A few years ago, Alyssa Freas joined us in a similar study with customers and discovered nearly identical results. External customer satisfaction goes up when customer service representatives ask, listen, learn and follow up. This seems simple and obvious – so why don’t we do it?",
         ],
         '57c5e408e9aXX' => [
             'title' => 'Design Disruptors Viewing',
