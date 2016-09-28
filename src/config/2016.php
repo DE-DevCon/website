@@ -169,7 +169,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         '2016-10-07' => [
             '2016-10-07 08:45' => 'Coffee/Opening remarks',
-            '2016-10-07 09:15' => '<a href="/2016/topics#57d00a35b0bd6">The Customer Isn\'t Always Right</a><h5><a href="/2016/people#jon_kranz">Jon Kranz</a></h5>',
+            '2016-10-07 09:15' => '<a href="/2016/topics#57d00a35b0bd6">The Customer Isn\'t Always Right</a><h5><a href="/2016/people#jon_kranz">Jon Kranz</a></h5><h6>York Room</h6>',
             '2016-10-07 10:00' => [
                 'room1' => '57c5e408e9bdf',
                 'room2' => '57c5e408e9ed4',
