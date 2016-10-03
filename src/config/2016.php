@@ -132,7 +132,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         'elliott_peay' => [
             'name' => 'Elliott Peay',
             'twitter' => null,
-            'description' => null,
+            'description' => "<p>Elliott joined Dominion Enterprises in 2014 as a Software Architect at forrent.com.  He is currently a Senior DevOps Engineer, where he specializes in using Puppet to automate server setup and maintenance.  He graduated from Old Dominion University in 2012, earning a MS in Computer Science.</p><p>Elliott also enjoys automated testing, continuous integration, and writing in third person.</p>",
         ],
         'andrew_ditmer' => [
             'name' => 'Andrew Ditmer',
