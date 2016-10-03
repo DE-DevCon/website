@@ -85,7 +85,7 @@ return [
         ],
         'jonathan_hofler' => [
             'name' => 'Jonathan Hofler',
-            'description' => '',
+            'description' => 'I work as a Software QA Engineer at homes.com.  I work on the 15th floor Quad C under team lead Andrew Wharton. I been developing on my own for 2 years and even though I love being a QA I am quickly progressing to be an AngularJS developer.<br /> I do a lot of cross training with developers on my team. I have used several programming languages and done projects in several, which are on GIT HUB.<br />I have been in the IT Networking/Technical support field for 10 years. So I have a good understanding of the customer’s point of view when it comes to QA.<br />I enjoy coding, gaming, and talking about technology in general. I love Star Trek. Yes I am a Trekkie ;)',
             'twitter' => null,
         ],
         'jose_mateo' => [
