@@ -267,7 +267,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '57c5e408e9d15' => [
             'title' => 'Life of a QA Engineer',
             'presenters' => [ 'jonathan_hofler' ],
-            'description' => 'Life of a QA Engineer: what they do, tools they use, why knowing how to code is important, career path a QA\'s can progress to ',
+            'description' => 'In this talk you will learn about the many different job titles that have similarities of a Software QA Engineer. What there roles are and how they differ. Also the various software tools a QA Engineer uses. How knowing how to read code and coding in a language a must. How communication with developer and product throughout the whole SDLC is important.  You will me all 7 QA Engineers form (HOMES) and their job roles. You will also see various videos from (EuroSTAR) Software Testing Conference and (AST) Association for Software Testing.',
         ],
         '57c5e408e9d4d' => [
             'title' => 'Building a real-time Android app with Firebase',
