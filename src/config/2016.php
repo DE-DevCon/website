@@ -189,7 +189,6 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             '2016-10-07 14:00' => [
                 'room1' => '57c5e408e9d15',
                 'room2' => '57c5e408e9ab4',
-                'room3' => '57c5e408e9c5c',
             ],
             '2016-10-07 15:00' => [
                 'room1' => '57c5e408e9ba5',
@@ -211,7 +210,7 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         ],
         '57c5e408e9aXX' => [
             'title' => 'Design Disruptors Viewing',
-            'presenters' => [],
+            'presenters' => [ 'lucien_frelin' ],
             'description' => "Design Disruptors is a documentary highlighting the rising importance of design as a competitive advantage in technology. It represents deep conversations with the top product designers and design leaders from today's most significant tech companies.",
         ],
         '57c5e408e9ab4' => [
@@ -248,11 +247,6 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'title' => 'Develop better, faster',
             'presenters' => [ 'james_tramel' ],
             'description' => "Find the issue, fix the problem. Watch out for trouble, and watch your code. Commoditize your work, make it reusable. DevOps is about three major things; People, Process and Products. We'll focus mainly on the products here - the tools you need to succeed. We'll go through modern debugging, modeling and mapping. Integrated testing in the cloud. Create your own new targets and tear them down, keeping what you want. Build, release, repeat.  App focus on modern web."
-        ],
-        '57c5e408e9c5c' => [
-            'title' => 'The $72,000 Bug',
-            'presenters' => [ 'lucien_frelin' ],
-            'description' => 'A fascinating recount of what we as developers face daily. It highlights the many factors involved in producing code and developing products. Concluding with the notion that no matter how hard we try to add technology to automate process to alleviate human error, we’re still human.',
         ],
         '57c5e408e9ca4' => [
             'title' => 'Defensive Coding for Dummies',
