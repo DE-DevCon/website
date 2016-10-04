@@ -156,9 +156,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
         '2016-10-06' => [
             '2016-10-06 08:30' => 'Coffee/Opening remarks',
             '2016-10-06 09:00' => [
-                'room1' => '57c5e408e9f08',
+                'room1' => '57c5e408e9d84',
                 'room2' => '57c5e408e9dbc',
-                'room3' => '57c5e408e9d84',
+                'room3' => '57c5e408e9f08',
             ],
             '2016-10-06 12:00' => 'Break',
             '2016-10-06 13:30' => [
