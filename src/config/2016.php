@@ -309,9 +309,9 @@ Guillermo, a Brooklyn native, currently resides in Chesapeake with his wife of 1
             'description' => 'Join Andrew as he builds a native iOS and Android app live and in person in C#.  Learn how to make a truly native cross platform mobile app with native UI, 100% API coverage for iOS and Android, and native performance.  We will use Visual Studio 2015 to build a real life, working, 2 screen application from the beginning.  File->New Project all the way through.'
         ],
         '57c5e408e9f40' => [
-            'title' => 'Puppet',
+            'title' => 'Puppet: Introduction and Lessons Learned',
             'presenters' => [ 'elliott_peay'],
-            'description' => 'Note: I\'m not entirely sure if this is a 50 or 30 minute talk, yet.  I hope to teach the audience about Puppet, a great tool for infrastructure management.  I can go over how we use Puppet at ForRent, and how someone would get started using it in their infrastructure.  I hope to include a few "oh that\'s cool" kind of moments as the configuration "just works" as I add additional servers to a cluster.',
+            'description' => 'An introduction to Puppet, a great, open source tool for managing your infrastructure.  Control which servers have which versions of which software, and more, all in code.  After an introduction to Puppet I will go over some pitfalls I have come across in Puppet, and how to avoid them.',
         ],
         '57c711391a66c' => [
             'title' => 'Jenkins',
